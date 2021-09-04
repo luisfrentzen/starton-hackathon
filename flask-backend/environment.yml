@@ -1,4 +1,4 @@
-name: fscripter
+name: starton-hackathon
 channels:
   - defaults
 dependencies:
