@@ -1,5 +1,7 @@
 # starton-hackathon
 ### start flask-backend
+start from flask-backend directory
+
 initiate and activate python venv from `environment.yml` first
 ```
 conda env create -f ./environment.yml
@@ -10,6 +12,9 @@ run flask server
 ```
 flask run
 ```
+
+### start react-frontend
+start from react-frontend directory
 
 initiate node env
 ```
