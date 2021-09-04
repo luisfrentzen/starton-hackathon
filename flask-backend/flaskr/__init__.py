@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, jsonify
 
 
 def create_app(test_config=None):
@@ -18,8 +18,8 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    @app.route('/hello')
+    @app.route('/hello', methods=['POST'])
     def hello():
-        return 'Hello, World!'
+        return jsonify(hello='World', name='Faker')
 
     return app
