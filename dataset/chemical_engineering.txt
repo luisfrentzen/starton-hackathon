@@ -1,0 +1,200 @@
+Each of the volumes of the Chemical Engineering Series includes numerical examples to illustrate the application of the theory presented in the text
+A drop of liquid spreads over a horizontal surface
+The final shape of the drop as indicated by its diameter, d, may be obtained by using the argument in (a) and putting R D 0.
+Liquid is flowing at a volumetric flowrate of Q per unit width down a vertical surface
+The key to this solution lies in the fact that the operation involved is an irreversible expansion
+Atoms are the basic building blocks of matter
+The hydraulic mean diameter, dm, is defined as four times the cross-sectional area divided by the wetted perimeter.
+The table we know today is a descendant of that invented in 1869 by a wild-haired Russian named Dmitri Mendeleev
+Atoms join together to form compounds and molecules.
+Stoichiometry describes the proportions between atoms in molecules and reactants/products in chemical reactions
+There are several types of chemical reactions that can occur.
+The properties of the elements exhibit trends based on the structure of their electrons.
+Several types of reactions occur in water
+Three important types of reactions in water are precipitation, acid-base, and oxidation-reduction reactions.
+In an oxidation-reduction or redox reaction, there is an exchange of electrons between two reactants
+It's important to understand how mixtures behave.
+The species that gains electrons are said to be reduced.
+Acids and bases are concerned with the actions of hydrogen ions or protons in aqueous solutions.
+Nuclear chemistry is concerned with the behavior of protons and neutrons in the atomic nucleus.
+All matter consists of particles called atoms.
+Atoms of different elements form compounds, molecules, and objects.
+Atoms consist of three parts
+toms cannot be divided using chemicals.
+The nucleus of an atom contains protons and neutrons
+Electrons move around outside the nucleus.
+Atoms are very small
+The average size of an atom is about 100 picometers or one ten-billionth of a meter.
+In a redox reaction, the oxidation numbers of atoms are changed.
+In a synthesis reaction, two or more chemical species combine to form a more complex product.
+Chemistry is the study of matter and energy and the interactions between them
+Chemistry tends to focus on the properties of substances and the interactions between different types of matter, particularly reactions that involve electrons.
+Because understanding chemistry helps you to understand the world around you.
+Everything you can touch or taste or smell is a chemical.
+You could use chemistry in most fields, but it's commonly seen in the sciences and in medicine.
+Some chemists work in a lab, in a research environment, asking questions and testing hypotheses with experiments.
+Some chemists do field work
+In the pharmaceutical industry chemists develop drugs and study their properties in order to determine the quality and stability of medicines
+Chemists typically specialise in biochemistry, neurochemistry, nuclear chemistry or theoretical chemistry.
+ome chemists even work in forensic science to establish evidence in criminal investigations.
+Chemists must be highly technically skilled and adhere to strict procedures and health and safety requirements
+All chemists work with simple forms of matter to either reach a greater understanding of the chemical itself,
+Maintain laboratory instruments
+A chemist also works to improve the quality of established chemical products and utilizes advanced computer programs to establish new technologies in the field.
+A mole is simply a unit of measurement.
+Units are invented when existing units are inadequate.
+Originally, a mole was the quantity of anything that has the same number of particles found in 12.000 grams of carbon-12
+A solution is a homogeneous mixture of two or more components
+The particles in suspensions are larger than those found in solutions
+Liquids, solids, and gasses all may be mixed to form colloidal dispersions.
+There are several methods of defining acids and bases.
+The Arrhenius theory of acids and bases dates back to 1884
+The Brønsted or Brønsted-Lowry theory describes acid-base reactions as an acid releasing a proton and a base accepting a proton
+The Lewis theory of acids and bases is the least restrictive model
+Robert Boyle described the qualities of acids and bases in 1661
+acids are corrosive
+bases don't change the color of litmus; they can turn red (acidified) litmus back to blue
+The strength of acids and bases depends on their ability to dissociate or break into their ions in water.
+strong acid or strong base completely dissociates
+a weak acid or weak base only partially dissociates
+Acids and bases are used in many chemical reactions.
+Binary acids have the prefix hydro in front of the full name of the nonmetallic element
+Ternary acids commonly contain hydrogen, a nonmetal, and oxygen.
+The acid containing one more oxygen than the most common acid has the per- prefix and the -ic ending.
+There are six strong acids.
+. Examples of weak acids include hydrofluoric acid, HF, and acetic acid, CH3COOH.
+The equation for calculating pH was proposed in 1909 by Danish biochemist Søren Peter Lauritz Sørensen
+pH is a measure of hydrogen ion concentration, a measure of the acidity or alkalinity of a solution.
+The pH scale usually ranges from 0 to 14
+Very strong acids might have a negative pH, while very strong bases might have a pH greater than 14.
+pH only has meaning in an aqueous solution
+The International Union of Pure and Applied Chemistry (IUPAC) has a slightly different pH scale
+Rough pH measurements can be made using litmus paper or another type of pH paper known to change colors around a certain pH value
+More accurate measurements are made using primary standards to calibrate a glass electrode and pH meter
+pH is used in everyday life as well as science and industry
+There are two key terms associated with buffers.
+A buffer is an aqueous solution that has a highly stable pH
+A buffering agent is a weak acid or weak base that helps maintain the pH of an aqueous solution after adding another acid or base
+A buffer is made by mixing a large volume of a weak acid or weak base together with its conjugate
+When acids and bases react with each other, they can form a salt
+Depending on the solubility of the salt, it may remain in ionized form in the solution or it may precipitate out of solution
+When strong acids and strong bases react, the products are salt and water.
+When a weak acid reacts with a strong base the resulting solution will be basic.
+Atomic mass and atomic mass number are two important concepts in chemistry.
+In the periodic table, the atomic mass listed for an element reflects the natural abundance of the element.
+Atoms are the basic building blocks of all types of matter.
+The two main types of bonds formed between atoms are ionic bonds and covalent bonds.
+An ionic bond is formed when one atom accepts or donates one or more of its valence electrons to another atom
+A covalent bond is formed when atoms share valence electrons
+The atoms do not always share the electrons equally, so a polar covalent bond may be the result
+The electrons that participate in metallic bonds may be shared between any of the metal atoms in the region
+A molecule or compound is made when two or more atoms form a chemical bond, linking them together.
+Atoms that participate in an ionic bond have different electronegativity values from each other.
+In a covalent bond, the atoms are bound by shared electrons
+In a true covalent bond, the electronegativity values are the same
+If the electron is shared equally between the atoms forming a covalent bond, then the bond is said to be nonpolar.
+For example, the atoms in water, H2O, are held together by polar covalent bonds. 
+Electrochemical reactions involve the transfer of electrons. 
+Mass and charge are conserved when balancing these reactions, but you need to know which atoms are oxidized and which atoms are reduced during the reaction
+The convention is that the cation is written first in a formula, followed by the anion. For example, in NaH, the H is H-; in HCl, the H is H+.
+The oxidation number of a free element is always 0. The atoms in He and N2, for example, have oxidation numbers of 0.
+The oxidation number of a monatomic ion equals the charge of the ion
+he oxidation number of oxygen in compounds is usually -2. 
+The oxidation number of a Group IA element in a compound is +1.
+The oxidation number of a Group IIA element in a compound is +2.
+The sum of the oxidation numbers of all of the atoms in a neutral compound is 0.
+Lewis structures, also known as electron dot structures, are named after Gilbert N. Lewis
+Lewis structures depict the bonds between atoms of a molecule, as well as any unbonded electron pairs.
+A Lewis structure is a type of shorthand notation.
+Atoms are written using their element symbols
+Lines are drawn between atoms to indicate chemical bonds.
+Single lines are single bonds, double lines are double bonds, and triple lines are triple bonds
+Start your structure by picking a central atom and writing its element symbol.
+ Lewis electron dot structures show the valence electrons for each atom.
+Once you have determined how many electrons to draw around each atom, you can begin placing them on the structure.
+Molecular geometry or molecular structure is the three-dimensional arrangement of atoms within a molecule.
+ It is important to be able to predict and understand the molecular structure of a molecule because many of the properties of a substance are determined by its geometry.
+The three-dimensional structure of a molecule is determined by its valence electrons,
+Pairs of electrons are shared between atoms in a molecule and hold the atoms together.
+Molecules with the same chemical formula may have atoms arranged differently.
+Isomers may have very different properties from each other
+You can use Lewis structures to predict molecular geometry
+Molecules and moles are important to understand when studying chemistry and physical science.
+A molecule is a combination of two or more atoms that are held together by chemical bonds, such as covalent bonds and ionic bonds.
+A molecule is the smallest unit of a compound that still displays the properties associated with that compound
+Molecules may contain two atoms of the same element,
+In chemistry, a compound is a molecule consisting of at least two different types of atoms
+The molecular weight of a molecule is calculated by adding the atomic weight
+The formula weight of an ionic compound is calculated by adding its atomic weights according to its empirical formula.
+The formula weight of an ionic compound is calculated by adding its atomic weights according to its empirical formula.
+This number, Avogadro's number, is 6.022x1023
+Avogadro's number may be applied to atoms, ions, molecules, compounds, elephants, desks, or any object.
+The mass in grams of one mole of a compound is equal to the molecular weight of the compound in atomic mass units
+One mole of a compound contains 6.022x1023 molecules of the compound.
+Converting between molecules and moles is done by either multiplying by or dividing by Avogadro's number
+Two different compounds are formed by the elements carbon and oxygen
+A chemical equation describes what happens in a chemical reaction
+Balancing a chemical equation refers to establishing the mathematical relationship between the quantity of reactants and products
+To balance redox reactions, you must assign oxidation numbers to the reactants and products
+Matter occurs in four states: solids, liquids, gases, and plasma
+Often the state of matter of a substance may be changed by adding or removing heat energy from it.
+For example, the addition of heat can melt ice into liquid water and turn water into steam.
+Matter has mass and takes up space.
+Under exceptional conditions, other states of matter also exist.
+The word "matter" refers to everything in the universe that has mass and takes up space
+States of matter are generally described on the basis of qualities that can be seen or felt
+A solid has a definite shape and volume because the molecules that make up the solid are packed closely together and move slowly.
+A liquid has a definite volume but takes the shape of its container.
+Gases may liquefy when they cool, as is the case with water vapor.
+Plasma has neither a definite volume nor a definite shape
+Scientists are discovering new states of matter all the time
+In addition to the four main states of matter, other states include superfluid,
+The periodic table arranges the elements by periodic properties, which are recurring trends in physical and chemical characteristics. 
+Elements tend to gain or lose valence electrons to achieve stable octet formation
+The atomic radius of an element is half of the distance between the centers of two atoms of that element that are just touching each other
+Generally, the atomic radius decreases across a period from left to right and increases down a given group
+The atoms with the largest atomic radii are located in Group I and at the bottom of groups.
+Moving from left to right across a period, electrons are added one at a time to the outer energy shell
+Electrons within a shell cannot shield each other from the attraction to protons.
+Since the number of protons is also increasing, the effective nuclear charge increases across a period
+Moving down a group in the periodic table, the number of electrons and filled electron shells increases, but the number of valence electrons remains the same
+The outermost electrons in a group are exposed to the same effective nuclear charge
+The ionization energy, or ionization potential, is the energy required to remove an electron from a gaseous atom or ion completely.
+he closer and more tightly bound an electron is to the nucleus, the more difficult it will be to remove, and the higher its ionization energy will be.
+The first ionization energy is the energy required to remove one electron from the parent atom
+The second ionization energy is the energy required to remove a second valence electron from the univalent ion to form the divalent ion, and so on
+Successive ionization energies increase.
+The second ionization energy is always greater than the first ionization energy
+Ionization energies increase moving from left to right across a period
+Ionization energy decreases moving down a group
+Group I elements have low ionization energies because the loss of an electron forms a stable octet.
+Electron affinity reflects the ability of an atom to accept an electron.
+Electronegativity is a measure of the attraction of an atom for the electrons in a chemical bond
+Chemistry is the branch of science that studies the behaviour and interaction of elements
+A magnet is any material capable of producing a magnetic field.
+Everything you hear, see, smell, taste, and touch involves chemistry and chemicals 
+According to the ACS, chemistry is the study of matter, defined as anything that has mass and takes up space
+The atomic magnetic dipole is the source of magnetism
+Chemistry is a big part of our everyday life
+Some common chemistry may be obvious, but others might surprise us.
+You find chemistry in foods, the air, cleaning chemicals, your emotions, and literally every object you can see or touch.
+Your body is made up of chemical compounds, which are combinations of elements.
+The emotions that you feel are a result of chemical messengers, primarily neurotransmitters.
+Love, jealousy, envy, infatuation, and infidelity all share a basis in chemistry.
+Chemistry holds the explanation for why ice floats while most other substances sink when they freeze.
+You can form a crude soap by mixing ashes and animal fat
+Sunscreen uses chemistry to filter or block the sun's harmful ultraviolet rays to protect you from a sunburn, skin cancer
+Cooking itself is really just chemistry.
+Lightning strikes produce Ozone, hence the characteristic smell after lightning storms
+The only solid elements that assume liquid form ​at room temperature are bromine and mercury. 
+Unlike many substances, water expands as it freezes.
+There is about 0.4 pound or 200 grams of salt (NaCl) in the average adult human body
+The only two non-silvery metals are gold and copper.
+Helium balloons float because helium is lighter than air.
+It's possible to die from drinking too much water.
+Liquid air has a bluish tint, similar to water.
+By the time you feel thirsty, you've already lost about 1% of your body's water.
+Dry ice is the solid form of carbon dioxide (CO2).
+Bee stings are acidic, while wasp stings are alkaline.
+Sometimes, hot water freezes more quickly than cold water
+Many radioactive elements actually glow in the dark.
