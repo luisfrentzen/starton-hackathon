@@ -1,14 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Router, Switch } from 'react-router';
+import Home from './pages/Home.js'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-  function test() {
-    fetch('/hello',  {method: 'POST'}).then(res => res.json()).then(res => console.log(res))
-  }
-
   return (
-    <button onClick={test}>Testing</button>
-  );
+    <BrowserRouter>
+      <Switch>
+        <Route path='/'>
+          <Home/>
+        </Route>
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App;
