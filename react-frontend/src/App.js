@@ -1,14 +1,14 @@
 import './App.css';
-import { Route, Router, Switch } from 'react-router';
-import Home from './pages/Home.js'
+import { Route, Switch } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
+import Major from './pages/Major';
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/'>
-          <Home/>
+        <Route exact path='/'>
+          <Major/>
         </Route>
       </Switch>
     </BrowserRouter>
