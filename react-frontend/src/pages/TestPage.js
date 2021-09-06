@@ -11,7 +11,7 @@ export default function TestPage() {
 	}
 
 	const submitHandler = () => {
-		setLoading(true)
+		// setLoading(true)
 		fetch("/predict", {
 			headers: {
 				"Content-Type": "application/json",
@@ -25,10 +25,11 @@ export default function TestPage() {
 				return res.json()
 			})
 			.then((res) => {
-				setLoading(false)
-				setProbabilities(res.probabilities)
-				setMajors(res.majors)
-				setmodalOpened(true)
+				console.log(res)
+				// setLoading(false)
+				// setProbabilities(res.probabilities)
+				// setMajors(res.majors)
+				// setmodalOpened(true)
 			})
 	}
 
