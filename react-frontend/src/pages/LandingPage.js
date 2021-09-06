@@ -1,3 +1,5 @@
+import { useHistory } from 'react-router'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 
 const footerNavigation = {
@@ -62,6 +64,8 @@ const footerNavigation = {
 }
 
 export default function LandingPage() {
+  const history = useHistory()
+
 	return (
 		<div className='bg-white'>
 			<header>
@@ -83,13 +87,13 @@ export default function LandingPage() {
 									Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
 									Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 								</p>
-								<div className='w-full mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center'>
-									<a
-										href='#'
+								<div className='relative z-20 w-full mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center'>
+									<Link
+                    to='/take-test'
 										className='flex items-center justify-center px-4 py-3 border border-transparent font-bold text-lg sm:text-xl font-medium rounded-full shadow-sm text-white bg-gradient-to-r from-accent-100 to-accent-200 hover:from-accent-200 hover:to-accent-300 sm:py-3.5 sm:px-12'
 									>
 										Try Now
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -155,12 +159,12 @@ export default function LandingPage() {
 				<div className='flex flex-col items-center'>
 					<div className='h-20 w-1 bg-secondary-400 rounded-full'></div>
 					<div className='max-w-sm mt-8 px-8 pb-20 mx-auto sm:max-w-none sm:flex sm:justify-center'>
-						<a
-							href='#'
+						<Link
+              to='/take-test'
 							className='flex items-center justify-center px-4 py-3 border border-transparent font-bold text-lg sm:text-xl font-medium rounded-full shadow-sm text-white bg-gradient-to-r from-accent-100 to-accent-200 hover:from-accent-200 hover:to-accent-300 sm:py-4 sm:px-12 shadow-md'
 						>
 							Take the Test
-						</a>
+						</Link>
 					</div>
 				</div>
 			</main>

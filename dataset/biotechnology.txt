@@ -1,0 +1,250 @@
+a face mask that both protects against respiratory pathogens and tests for SARS-CoV-2 as accurately as a lab test
+a group led by researchers at Harvard’s Wyss Institute and MIT incorporates biosensors into fabric, creating a SARS-CoV-2–sensing face mask and a jacket that can detect antibiotic-resistant bacteria. 
+it’s the first demonstration of textile fibers using cell-free systems “that have been engineered to harness the core sensing mechanisms of cellular biological systems,”
+It’s not the first time researchers have incorporated biological components into wearable sensors. In a quest to make devices such as stick-on tattoos that sense small molecules on the skin or running gear that opens ventilating flaps when exposed to sweat, scientists have often used living cells such as bacteria because their molecular machinery can carry out a reaction that indicates the presence of a given substance.
+But living cells can be needy, with strict nutritional, moisture, and temperature requirements. They also carry the risk of escaping into their environment, as well as mutating so they no longer carry out the role they were engineered for. 
+Instead of using living cells, some synthetic biologists use cell-free systems, where all the cell-derived reaction components, such as enzymes, are included. The cell-free reaction components can be freeze-dried, leading to a just-add-water approach.
+The team created a sensor that senses SARS-CoV-2 RNA in the user’s breath and that the researchers say can be integrated into any mask (in their study, they use a KN95). To activate the mask, the user simply presses a button to release a tiny amount of water into the mask’s self-contained sensing system to rehydrate the components of a three-step reaction.
+Any virus deposited on the mask’s sensor would be wicked through the system by capillary action, allowing each step to happen sequentially. 
+ First, a lysing step breaks open any viral particles to expose RNA.
+Next, a recombinase enzyme opens up the DNA duplex and pairs primers with homologous regions in the DNA. A binding protein stabilizes the separated DNA strands, and a polymerase enzyme makes copies of the region between the primers.
+Then, a reverse transcriptase enzyme converts the single-stranded SARS-CoV-2 RNA into double-stranded DNA. 
+Finally, the copies of viral DNA activate the SHERLOCK CRISPR Cas12a enzyme, which cuts up nearby nucleic acids, including a bit of single-stranded DNA that tethers a fluorescent indicator. The released indicator reacts with a strip in the mask, changing the pattern of lines on the strip (which can be oriented on the inside of the mask, for the user’s privacy)—much like a pregnancy test. All of the reactions were optimized to work at room temperature.
+One reason for this has been the mounting global interest in Africa’s diverse human genetic resource. Scientists increasingly believe this diversity could hold the keys to better healthcare treatments—not just for Africans, but for people around the world. 
+By this past March, it had obtained nearly 100,000 biological samples that it aims to sequence to boost the representation of Africans in global genomic datasets. The samples come mainly from Nigerians, but 54gene’s founders want to expand into other African countries.
+The US Food and Drug Administration granted approval yesterday (December 14) for a genetically modified line of pigs that marks the first time a GM animal has been given the regulatory greenlight for both therapeutic development and food consumption, the agency says in a statement. 
+The alteration knocks out alpha-gal, a sugar molecule on the surface of cells, and could help minimize allergic reactions to pork and reduce the risk of organ rejection in transplant patients. 
+The FDA strongly supports advancing innovative animal biotechnology products that are safe for animals, safe for people, and achieve their intended results
+Pigs with the genetic modification are known as GalSafe pigs and are made by Revivicor Inc, a subsidiary of the US biotech United Therapeutics. Research in the mid-2010s indicated that the knockout made transplants from the pigs less likely to be rejected by primate recipients.
+The director of the FDA’s Center for Veterinary Medicine, Steven Solomon, told reporters in a conference call yesterday that developers who want to use GalSafe pigs for therapeutic purposes will still have to seek approval for their applications.
+As far as food production is concerned, the statement notes that the meat is safe for consumption by the general population, adding that Revivicor “intends to sell meat from GalSafe pigs by mail order, rather than in supermarkets.”
+The agency’s evaluation also concluded that GalSafe pigs presented low risk to the environment, with an impact that “is no greater than from conventional pigs.” It adds that “no animal safety concerns were noted for GalSafe pigs beyond those that would be expected in well-managed, commercial swine populations.”
+Multiple other efforts to develop genetically engineered pigs are underway around the world, including some alterations designed to make pigs grow faster, and others aimed at making the animals more resistant to lethal viruses such as porcine reproductive and respiratory syndrome virus (PRRSV).
+Changes in DNA methylation patterns occur early during oncogenesis, and each type of cancer has its own methylomic signature
+Technological advances in methylation sequencing, or methyl-seq, allow researchers to quickly characterize methylation patterns in specific regions of interest and identify potential biomarkers for cancer screening
+a newly developed imaging toolbox may improve the detection of primary ciliary dyskinesia, a genetic lung disorder characterized by impaired motility of the cilia, the slender organelles protruding from cells that employ sweeping motions to move mucus along the airway. 
+the diagnosis of PCD is often delayed due to the limitations of current tests and a lack of awareness. 
+They report that super-resolution microscopy on nasal airway cells from PCD patients can identify proteins in the wrong locations, defects in cellular structure, and impaired beating movements in the cilia. 
+The scaffolds, which were created with an “electrospinner” that uses electric fields to weave matrices out of nano-fibers, come in three shapes: honeycomb, mesh, and aligned, in which the fibers are tightly packed similar to connective tissue.
+The authors “discovered that the triple-negative breast cancer cells preferred honeycomb scaffolds while adenocarcinoma cells favored mesh scaffolds and premalignant cells preferred the aligned scaffolds,”
+ this new technology can help researchers to study “how and why cancer cells metastasize
+We can understand in a true 3D system why pre-metastatic cells become metastatic, and provide tools to other researchers to study signaling pathways that change between pre-malignant and malignant cells.”
+genetically edited bull successfully passed down to his offspring a gene that scientists had introduced into his genome as an embryo so that he would not grow horns as an adult
+Four of the calves also inherited a bit of the plasmid that had ferried the hornless gene, called POLLED, into the bull’s genome. The unintended presence of foreign DNA has derailed their route to market in Brazil and the US.
+We’ve demonstrated that healthy hornless calves with only the intended edit can be produced, and we provided data to help inform the process for evaluating genome-edited animals,
+Spotigy and Buri, two bulls that had the POLLLED gene inserted into their genomes from a hornless breed of cattle, were born in 2015. Buri then moved to Davis to be monitored and bred, ultimately siring six calves in September 2017.
+Van Eenennaam’s initial analysis found that the calves were heterozygous for the dominant POLLED allele
+just as scientists had hoped they would be. In a number of examinations since they were born, the animals have continued to show good health and no abnormalities, except the lack of horns.
+But as she and her colleagues were preparing their manuscript, the US Food and Drug Administration’s (FDA) review of the calves’ genomes spotted the plasmid sequence, inserted right next to the POLLED gene, Wired reports
+The presence of the plasmid felled a partnership between Brazil and Recombinetics, the biotech that developed the hornless cows, and the company is no longer seeking US approval of its modified dairy cattle.
+New Tissue Clearing Methods Offer a Window into the Brain
+The mammalian brain consists of billions of neurons wired together in various circuits, each one involved in specific physiological functions. To better understand how these different neurons and circuits are associated with mental activities and diseases, researchers are reconstructing detailed, three-dimensional maps of neural networks.
+However, 3-D imaging of the mammalian brain is challenging. Light scatters as it travels through layers of tissue, dispersed by a variety of molecules such as water, lipids, and proteins. This reduces image resolution.
+One way to improve resolution is to reduce the scattering. Researchers achieve this by first removing water and lipids from tissue
+Next, chemicals are introduced that have a refractive index a measure of how much the molecules bend light that passes through them in the range of that of proteins.
+Establishing near-homogenous refractive indices in the molecules that populate the tissue environment allows light rays to converge to improve image resolution. This is the working principle of most tissue clearing methods, which have been used successfully for decades on hard tissues like bone.
+Researchers have performed brain tissue clearing with limited success, as the chemicals available were too harsh on delicate neural tissues.
+Karl Deisseroth and his team at Stanford University revolutionized the approach with a hydrogel-based technique called CLARITY. This technique enabled researchers to label neurons in mouse neural tissue with fluorescent markers and then to image an entire mouse brain without sectioning it, while preserving the fluorescence signals.
+Since then, tissue clearing methods have continued to improve as researchers have developed chemical mixtures that better preserve tissue architecture and protein structures. The latest techniques are also compatible with fluorescent labels. When they are integrated with advanced tissue processing methods such as automated cell counting, researchers can identify neurons and even intracellular components with ever-improving precision. 
+Many tissue clearing methods rely on organic solvents or detergents, which degrade lipid cell membranes, as well as lipid-based dyes that are typically used to stain neurons and intracellular organelles. 
+Zhu and her team developed a tissue clearing method called RTF (Rapid clearing method based on Triethanolamine and Formamide) that is compatible with lipid-based dyes
+RTF is a solution containing water, formamide, and a high refractive index chemical known as triethanolamine. In a serendipitous accident, another lab found that formamide, a chemical commonly used in buffers for molecular biology applications, could clear tissues. 
+Some tests suggest that formamide most likely partially denatures proteins, lowers their refractive indices and brings them closer to those of water and lipids. This helps to create a environment with greater uniformity in refractive indices.
+The team showed that after clearing a mouse brain with RTF, the fluorescence signals of endogenous proteins and a lipid-based dye called Dil, which is widely used to stain axons, were not quenched. 
+RTF is unable to clear adult mouse brain tissue that is more than one millimeter thick. There is also an undesirable shrinkage of about 2 percent to 5 percent in cleared tissues, which can reduce the accuracy of imaging tissue architecture and neural networks.
+Unlike other techniques, which take about a week for clearing soft brain tissues, RTF clears tissues after a day of chemical incubation. The process is also reversible: cleared tissues can be restored to their original state by soaking in saline. This is useful for long-term storage because cleared tissues are less stable.
+Immunostaining with antibodies allows researchers to visualize specific cells and proteins, but tissue clearing typically slows down antibody penetration into tissues. Zhu is working on a way to accelerate antibody penetration into brain tissues cleared with RFT so as to further reduce tissue processing time.
+To optimize tissue transparency, Zhu recommends adjusting the clearing time outlined in their protocol. Although RTF is not commercially available, the reagents are cheap and can be bought off the shelf. The setup for clearing is also simpler than most other tissue processing techniques, Zhu says.
+Existing clearing solutions are not optimized to clear both soft tissues, such as brain and spinal cord, and calcified hard tissues such as bone at the same time.
+This makes it challenging to visualize intact connections between the central and peripheral nervous systems, because peripheral nerves in the spinal cord are connected to the vertebrae, and vertebrae are too opaque for imaging.
+Zhao and team developed a procedure, which they named PEGASOS  (the polyethylene glycol associated solvent system), to clear both soft and hard tissues at the same time
+The process is similar to other clearing protocols except it uses polyethylene glycol (PEG) for enhanced fluorescence preservation and contains two additional steps: decalcification of hard tissues and decolorization of colored tissues such as liver, which looks red because it contains high levels of iron.
+For those working with small body parts, the tissues can be passively immersed in chemical reagents. 
+The researchers used PEGASOS to trace single axons between two different segments of the spine of rats and to visualize neurons within the spinal cord without surgically separating them from the vertebrae. They also visualized the 3-D distribution of nerves within the bone marrow and found that nerves are spatially enriched in certain bone regions. 
+For immersed soft/hard tissues, clearing takes about 7 to 12 days.
+The duration for the circulation process must be doubled for adult rats, which have more tissues.
+Whole-body clearing takes longer because clearing solutions must be circulated for 10 days, bringing the entire clearing process to three weeks for a young rat.
+This lengthens the entire clearing process to about a month
+Tissue shrinkage may not be uniform for all types of tissues.
+Alternatively, clearing solutions can be circulated throughout the body using a perfusion pump for whole body clearing
+Tissue clearing is just the first step, says Zhao; the subsequent imaging and data processing are more challenging
+He suggests new users start with thin tissue slices and not an entire organ to familiarize themselves with the entire workflow. The technique uses off-the-shelf reagents
+Most existing brain clearing techniques do not leave tissue entirely transparent, making it difficult to construct brain maps with single-cell resolution
+After screening close to 1,700 chemicals, Ueda and his colleagues developed a method, named CUBIC-X, for expanding brain tissue after clearing it 
+They immersed the tissue in hydrophilic (water-loving) reagents identified through the chemical screen, enlarging the volume of the brain approximately tenfold the optimal volume expansion, as tissues can become fragile after that.
+Using their protocol, Ueda and his colleagues were able to image entire 1 cm–thick mouse brain without losing any cells.
+And because the expanded tissue is 99 percent water, the refractive index stays mostly the same throughout the brain’s layers.
+This causes tissues to become transparent and allows nearly 100 percent light transmission for single-cell resolution imaging.
+The chemicals used to expand tissues tend to quench fluorescence signals for labeling neurons and subcellular components such as RNA.
+Tissue clearing with CUBIC-X takes about 16 days for a whole mouse brain.
+In the future, Ueda hopes to apply CUBIC-X to other organs, including heart and lungs. He also plans to use the technology to clear the brains of larger mammals such as nonhuman primates and humans.
+The researchers created the CUBIC-Atlas, an open access mouse brain atlas with single-cell annotation. 
+During tissue clearing, enzymes and chemicals are used to digest tissues, remove lipids, and sometimes dehydrate the sample.
+In addition to quenching fluorescent signals from labeled molecular, these procedures inevitably degrade proteins and RNA, destroying key molecular information.
+On a molecular level, it helps maintain protein structure
+This is important because small changes in a protein’s 3-D shape can cause it to lose its fluorescence and binding abilities. 
+The team screened six types of epoxides and used computational simulations to identify the one that best preserved the fluorescence of green fluorescent protein (GFP).
+They then infused the chosen epoxide into the brain tissues of mice genetically modify to express GFP in neurons
+There, the epoxy reacted with GFP to form flexible chemical bonds.
+These bonds protected GFP from denaturation during tissue clearing, and allowed GFP to refold back into its natural conformation after tissue clearing.
+ It also protected the ability of proteins to bind to antibodies and RNA transcripts to RNA probes after tissue clearing
+The team combined SHIELD with tissue clearing with CLARITY to image 2 mm–thick segments of human brain and mouse brain with single-cell resolution
+ SHIELD tissue treatment takes about four days for a whole mouse brain.
+Subsequent tissue clearing requires an additional four to six days, for a total of two weeks.
+The team plans to apply SHIELD to larger organs and even tumors.
+They are also developing an improved system to facilitate antibody penetration through tissues for faster labeling
+Due to epoxide processing, SHIELD-treated tissues are stiffer and have a slower antibody penetration rate
+so antibody labeling will take two days longer for a whole mouse brain
+researchers at MIT have engineered Escherichia coli and human cells such that they can record multiple molecular events as well as the time and order in which they happen. 
+The approach, which they describe in Molecular Cell today (August 22), incorporates base editing technology and essentially exploits DNA’s coding capacity for the storage, retrieval, and processing of specific user-defined information.
+This is a very clever use of base editing for reading [and] writing information inside of living cells
+Their system seems robust and powerful and will open up doors for applications in DNA writing such as molecular recording and synthetic biology more generally
+Turning cells into molecular recorders meaning they are genetically programmed to make permanent alterations in their DNA in response to particular molecular events has a number of potential biotechnological and biomedical applications.
+Bacterial cells in soil or water, for example, could be used to detect and record the presence of environmental toxins, pesticides, and more, while mammalian cells in an animal could be used to track events during the development of a disease or the progression of a physiological process
+Previous molecular recording technologies have used CRISPR enzymes or recombinases to insert, flip, or mutate particular DNA segments, but Lu and colleagues have now used a CRISPR-related technique called base editing to make single base-pair changes
+The smaller and more precise mutations mean there is a greater capacity for information storage and that the changes themselves can be “read” as instructions for further downstream functions
+the basic units of operation are two types of genetic sequence: one encoding a specific guide RNA (gRNA) under the control of an inducible promoter the inducer being whatever molecular event the user wants etched in the DNA and one encoding a base-editing enzyme fused to a nuclease-free CRISPR-Cas9 enzyme (to which the gRNA binds)
+The genetic sequences are transfected into cells and when those cells are exposed to the inducer, the gRNA sequence is expressed, the RNA binds to the Cas9-base editor fusion protein, and then transports it to the target DNA sequence (a match for the gRNA) for editing. 
+The edits, or recordings, can be later analyzed by DNA sequencing.
+In its simplest format the system can be used to mutate a target site in response to a chosen environmental signal, but the system can also be easily and vastly expanded
+For example, a selection of gRNAs, each driven by a particular inducer, could be used to record multiple signals at once. Moreover, gRNAs can be designed to recognize target DNA sequences only after modification by other gRNA-driven edits.
+It’s why we called the system DOMINO,” which stands for DNA-based Ordered Memory and Iteration Network Operator
+To determine timing, arrays of repeated target sequences can be arranged in the cell’s DNA in such a way that, initially, recruitment of the base editor is only possible to the first target (only this one has exactly the correct sequence)
+This first act of editor recruitment creates the necessary base change in the adjacent target, which the editor overlaps, to enable that target’s recognition and the necessary base change in the following target, and so on. 
+Having arrays of targets for one inducer followed by targets for a second, allows both time and order to be recorded. 
+The team demonstrates the feasibility of these various approaches in sets of experiments with E. coli and human cells.
+Although the experiments so far were proofs-of-principle, “It is exciting to think about the possible applications for such programming of sophisticated condition-specific DNA changes that result in persistent outcomes,”
+new cryopreservation bank offers customers the chance to stash away their T cells for use in future cancer treatments. 
+Using a similar model to cord blood banks, the startup Cell Vault announced that it has already raised $1 million from Silicon Valley investors in an initial round of funding.
+Cell Vault proposes that, once frozen, customers’ T cells can be readily available for adoptive cell transfer, an emerging form of cancer treatment.
+One treatment of this kind equips T cells with chimeric antigen receptors (CAR), which enable the cells to seek out and destroy specific tumor types bearing complementary antigens
+Normally, CAR T cells are collected from patients themselves, genetically modified to target particular antigens on the cancer cell surface, and then reintroduced into the body where they beeline toward tumors. 
+Cell Vault posits that all healthy individuals should bank their T cells, and soon, according to their website: “The sooner, the better because an individual’s t-cells decrease in number and functionality as they age.” 
+You’re taking insurance against a lack of healthy T cells being a problem with getting effective immunotherapy in the future
+The Cell Vault business model is straightforward; customers register and receive a blood collection kit in the mail, and the company schedules a five-minute blood draw with an ExamOne phlebotomist to take place at home or in the office.
+The sample is then shipped overnight to the Cell Vault partner lab, Brooks Life Sciences in New York, where the peripheral blood mononuclear cells in the sample are frozen according to standards set by the Foundation for the Accreditation of Cellular Therapy (FACT), according to Hari.    
+The FDA has approved CAR T cell treatments for diffuse large B-cell lymphoma (DLBCL) and a certain form of acute lymphoblastic leukemia (ALL), seen in pediatric and young adult patients.
+Both interventions are approved as a second line of therapy, to be administered after a patient has not responded to or has relapsed after at least two different treatments.
+Undergoing cancer therapy can leave patients with a severely compromised immune system and too few T cells to collect for therapy. Patients must also wait two to four weeks while CAR T cells are being manufactured. 
+Cell Vault proposes that, if you have cells stored away, you can sidestep both these problems.
+T cells collected before cancer takes hold are “probably much better at making more potent T cell based treatments,
+But it’s unknown whether cells collected before disease sets in are actually better suited for CAR T therapy
+It’s also unknown how T cells fare after being frozen for one, 20, or 50-odd years
+Frozen T cells are sometimes used to produce existing CAR T treatments, according to Levine, but under carefully controlled protocols and quality assurance measures to which Cell Vault may or may not adhere
+Studies of cryopreserved bone marrow and umbilical cord blood, both used for stem cell transplantations, suggest that the cells lose little viability for grafting over the course of 10 years, with time frames up to 20 years proving successful in animal models
+Hari suggests that T cells would likely react the same way over extended periods of time and remain useful for CAR T cell therapy.
+Viability declines are easy to overcome because you just give more of the product,” says Hari. He has advised Cell Vault to undertake feasibility studies by using thawed out T cells to generate a CAR T product, and see if the result holds up to scrutiny. 
+But there’s a question about how much product Cell Vault will get.
+Sadelain says a five-minute blood draw is a red flag.
+Existing CAR T cell therapies require that patients’ blood be collected through apheresis, a process that separates specific components of the blood over the course of several hours.
+Billions of white blood cells can be collected at an apheresis appointment. 
+A quick blood draw would supply “several hundred to a thousand less [T cells] than is necessary to generate FDA-approved T cell products
+Expanding an inadequate quantity of cells to achieve the correct volume would result in cells of “poor quality,
+Provided the frozen cells are plentiful and number in the required billions, would clinicians be able to accept T cells from a third-party banking service?
+On research protocols developed with INDs [Investigational New Drug applications vetted by the FDA], the answer is no,” says physician-scientist David Miklos, the clinical director of the Cancer Cell Therapy program at Stanford University Medical Center
+INDs outline a rigid protocol as to how T cells can be collected, stored, and modified for use in an FDA drug candidate or fully approved treatment. As third-party T cell banking is a new phenomenon, it’s unlikely that the infrastructure exists for clinical institutions or commercial enterprises to accept their preserved products. 
+Levine affirms this statement in the ISCT release, stating that commercial manufacturers of CAR T products are unlikely to use cells collected by a third-party bank “in the near future.”
+The FDA strictly regulates how companies track where their cells came from, monitor the cells during storage, and test their viability once thawed. 
+It’s absolutely outlined in the Biologics License Application” submitted during the approval process, he says, and there’s no wiggle room
+Miklos says he could envision a scenario in which T cells could be collected and stored for patients with aggressive high-risk cancer early in their therapy if they have reached remission, so that the cells would be readily available in case of relapse.
+The strategy would be analogous to the “harvest-and-hold” protocol for stem cells used in autologous transplantation for managing multiple myeloma, wherein enough cells are collected after the first phase of treatment to be sufficient for at least two transplants, he says. But this isn’t the model Cell Vault has proposed.
+The market for CAR T cell therapies is still quite small, given that only two such treatments have been approved to date
+Clinical trials are underway for additional cancer types, and it’s likely the number of eligible patients will grow.
+At this time, many academic centers and also companies are launching programs to tackle solid tumors,” such as breast and lung cancers
+Inherent challenges lie in identifying unique markers on different cancer types that CAR T cells could target, he says, as well as overcoming obstacles in the tumor microenvironment.  
+Beyond tackling new cancer types, researchers aim to learn how T cells drawn from donors could be adapted for use in CAR T therapies.
+Once allogeneic, or off-the-shelf, transplants from donors prove viable, freezing T cells from patients themselves could become obsolete
+In April, the FDA approved the IND for the first allogeneic CAR T product to make it to clinical development, created by the pharmaceutical company Cellectis to treat patients with multiple myeloma. 
+Still more researchers are working to grow T cells from pluripotent stem cells, while others have used nanoparticles to deliver DNA straight to T cells in mouse models, thus eliminating the need to remove cells from the body.
+As the burgeoning field of CAR T therapies continues to swell, it’s unclear whether cryopreservation banks will prove their worth in time.
+Unlike biotech tools adapted from nature, the invention was entirely conceived by humans and represents one of the few proteins made from scratch in the lab.
+Scientists have invented a synthetic protein designed to control the inner workings of cells.
+the researchers demonstrate how the tool can be used to tweak gene expression, orchestrate protein binding events, and cue functional changes in the cell in response to environmental conditions. 
+Cells receive stimuli, then have to figure out what to do about it. They use natural systems to tune gene expression or degrade proteins
+The peptides only pop out when released by specific molecular “keys.”
+The newly designed tool—named LOCKR for Latching, Orthogonal Cage/Key pRotein—fiddles with these inbuilt systems by introducing bioactive peptides in their circuitry. 
+LOCKR consists of six helixes, tightly bound to form a cage.
+One of the helical structures, bound more loosely than the others, can be displaced by a specific molecule, the key.
+When the key clicks into place, the helix moves aside and reveals a peptide customized to perform a particular function
+In their demonstrative studies, the researchers used LOCKR to trigger cell death, degrade specific proteins, and direct the movement of materials through living cells
+Individual LOCKR proteins can also be connected to form circuits, systems able make changes within the cell in response to internal and external stimuli
+The researchers first tested their tool in yeast, then successfully designed a modified version that works in lab-grown human cells
+It signals the dawn of de novo designer proteins
+De novo proteins, designed start to finish by humans, may carry advantages over repurposed natural proteins
+While naturally occurring proteins may serve multiple functions and work via different mechanisms, synthetic proteins can be built to do just one thing
+LOCKR, which counts among the first de novo proteins ever invented, can only function as a molecular switch
+on the hunt for new bacterial species in the alkaline waters of the springs.
+Specifically, Mohamed was looking to sample species that were electrically active that is, bacteria with metabolisms that depend on either donating electrons to or receiving them from their environment.
+A 2016 review of studies carried out around the world identified 94 species of electrically active bacteria, but only a couple, Geobacter sulfurreducens and Shewanella oneidensis, have been thoroughly scrutinized, leaving many open questions about electrically active bugs.
+For example, Mohamed notes, G. sulfurreducens and S. oneidensis use different mechanisms to pump electrons out, but it’s not known whether their evolutionary histories are intertwined.
+“The more we know, the more bacteria we isolate, probably the better we can reconstruct how this phenotype evolved over time
+There could also be more-pragmatic benefits to finding electrically active microbes: some engineers hope to harness the bacteria for uses such as manufacturing chemicals or generating electricity from waste.
+Mohamed and his advisor Haluk Beyenal, a bioengineer, suspected the unusual environments in Yellowstone’s pools might be harboring some of these bacteria that can take up or churn out electrons, so they set out to find a better way of capturing the microbes.
+Existing commercial devices called potentiostats can pump in or out electrons with a researcher’s chosen potential, or energy level, and can be used to enrich samples of bacteria in the lab by attracting the electrically active organisms to cluster on probes.
+But because the water in hot springs tends to have low levels of biomass, the bulky devices are impractical: they’d require gallons of spring water to collect enough of each electrically active species for researchers to study. 
+The process also requires researchers to keep their lab conditions close enough to those found in the microbes’ home to keep them alive, which can be difficult or impossible when the species in a sample, and their preferred living conditions, aren’t known.
+Mohamed and Beyenal’s approach was to make a smaller, more portable potentiostat by building a device that lacked some of the functions of the commercial versions, such as quickly switching potential levels and measuring very high or very low currents.
+The portable device also used less power, so that it could feed off a battery.
+They hoped that by using the probes as bait in the Yellowstone pools, they could get electrically active bacteria to glom on to the surfaces and then carry them back to the lab, without the need to cart back large volumes of water.
+Back in the lab, the team found that their potentiostats appeared to have successfully enriched microbe concentrations: probes with current had a greater volume of DNA on them than did the controls
+And the electron-donating probes proved most popular with the microbes, indicating that electron-accepting bacteria may be more abundant than electron-donating bacteria in the springs, the authors surmised
+Not surprisingly, the electron-donating and electron-accepting probes also differed in the dominant classes of bacteria they attracted.
+None of those classes were previously known to contain any electrically active species, indicating that the team may have brought home new types of electron-pumping bacteria
+But there’s more work to be done to characterize the probe-captured bacteria and to see what they can do, says Mohamed, who graduated earlier this year but still works at WSU
+Indeed, notes Ken Noll, who studies thermophilic microbes at the University of Connecticut and was not involved in the study, the results show that the potentiometer enriched the microbial community on the probes, but not that the members of the community necessarily have electrical activity. 
+Through more research for example, changing the electrical conditions under which the microbes are enriched the team can start to learn more about the species they’ve found, he says.
+Noll himself has worked in the past on developing biological fuel cells, which proponents hope could harness microbes to generate current.
+But “the metabolic capacities of the kinds of organisms we have now are somewhat limited in what they can do,” he says—for example, in the types of carbon compounds they can break down for energy.
+Ideally, researchers will find or engineer electrically active microbes that run on, say, the acids made as a waste product of sewage treatment.
+Another possible application, says environmental biotechnology researcher Lars Angenent of the University of Tuebingen in Germany, is in devices known as microelectrochemical cells that would juice electron-accepting bacteria with current to speed up energy-consuming chemical reactions and make useful products. 
+program that focuses on the application of the biological sciences, biochemistry, and genetics to the preparation of new and enhanced agricultural, environmental, clinical, and industrial products, including the commercial exploitation of microbes, plants, and animals. 
+Includes instruction in bioinformatics, gene identification, phylogenetics and comparative genomics, bioinorganic chemistry, immunoassaying, DNA sequencing, xenotransplantation, genetic engineering, industrial microbiology, drug and biologic development, enzyme-based production processes, patent law, biotechnology management and marketing, applicable regulations, and biotechnology ethics. 
+Biochemistry, Ethics, Genetics, Management, Marketing, Mathematics
+Biotechnology is an interdisciplinary specialisation and a broad area of biology that uses biological systems, living organisms or their components and cellular and biomolecular process to make technologies that improve our lives.
+The applications of biotechnology are diverse and are most popularly utilised in health and medical sciences, biomedical engineering, agriculture, cell biology, immunology, seed technology, virology and plant physiology.
+Biomedical Engineer, Biochemist, Medical Scientist, Clinical Technician, Microbiologist, Process Development Scientist, Biomanufacturing Specialist, Business Development Manager, Product Strategist, Biopharma Sales Representative, Medical Scientist, Biotechnological Technician, Epidemiologist, Microbiologist, Medical and Clinical Lab Technologist, Biomanufacturing Specialist, Bioproduction Specialist, R&D Scientist
+fusing biological and engineering skills to construct solutions for problems related to medicine and biology.
+The aim of a Biomedical Engineer is to develop and design better quality biomedical devices, equipment, artificial organs, diagnostic machines, and software for healthcare.
+A Biochemist studies the chemical attributes of biological processes and living things that include various diseases, heredity, and cell growth or destruction. 
+Such biochemists mostly spend time in the labs because of the complex research. 
+They analyze, isolate, and synthesize fats, proteins, carbohydrates, DNA, and other molecules in order to know the effect of such things to our body.
+In order to follow the career path of a Biochemist, you must have a master’s degree in any of the major fields like Chemistry, Biochemistry, Biology, Medical Chemistry, etc.
+Biotechnology involves using biological organisms to create products and new technologies.
+Most biotechnology majors specialize in medicine, agriculture, energy, or the environment.
+Popular biotechnology subfields include gene therapy and vaccine development.
+When the world came to a sudden halt due to the COVID-19 pandemic
+everyone turned to the one group of people who could lead us back to safety: medical scientists. And not just any medical scientists, but those who held biotechnology degrees and could develop vaccines and drugs to combat the virus.
+Biotechnology refers to the combination of biology and technology, with professionals using living organisms and the principles of biology to develop products and solve problems.
+Biotechnology majors typically focus on one of four areas: medicine, agriculture, energy, or the environment.
+Biology and Chemistry: Genetics, organic chemistry, anatomy/physiology
+Math: Calculus, trigonometry, statistics
+English: Technical writing, oral communication
+Lab Work: Biotechnology classes teach you how to work safely and follow standard operating protocols in a lab environment.
+Communication: Your discoveries will be useless if no one knows about them. This is why biotechnology programs place a heavy emphasis on developing students' reading, writing, and public speaking skills.
+Quantitative Skills: You'll learn how to collect and present data for maximum effect.
+Entrepreneurship Skills: Most lucrative biotechnology work today is being developed by startups and fledgling companies, so you'll need to be familiar with basic business practices.
+Vaccine Development and Manufacturing
+The coronavirus outbreak has shown us the startling effects devastating diseases can have on society.
+The best way to remedy a pandemic on a population-level scale is to create a vaccine. 
+But vaccines aren't easy to develop for every microorganism — especially not overnight. 
+Gene Therapy
+Most of the drugs available today work by tweaking the levels of chemicals already found in your body. 
+genetic code
+That's the mission of gene therapy. 
+pancreas doesn't produce insulin and you develop diabetes as a result. 
+medication, scientists could attempt to re-hardwire your insulin-producing cells.
+bioremediation, this branch of science is poised to take off in a huge way
+With this technology, we can clean up polluted and abandoned mines, break down plastics in the ocean, and even scrub carbon dioxide from the plumes of manufacturing plants.
+microorganism out there that can do the job. We just need a biotechnologist to find or create it first.
+Biotechnology is a set of techniques by which human beings modify living things or use them as tools.
+Biotechnology uses enzymes to make bio-based products like chemicals, ingredients, detergents, materials and biofuels.
+Specifically, industrial biotechnology uses enzymes and micro-organisms to make bio-based products in sectors such as chemicals, food ingredients, detergents, paper, textiles and biofuels.
+traditional products like bread, beer, cheese, wine, and yoghurt all make use of natural processes.
+In the 1800s, Louis Pasteur proved that fermentation was the result of microbial activity. Then in 1928, Sir Alexander Fleming managed to extract penicillin from mold.
+Alcohol production is one of the most basic applications of industrial biotechnology.
+First generation biofuel is produced by fermenting plant-derived sugars to ethanol, using a similar process to that used in beer and wine-making, or by converting plant-oils to biodiesel.
+Bioplastics, made from biopolymers are already utilised in plastic food packaging, mobile phone cases, sunglasses, pens and personal care packaging for products such as shampoos and conditioners.
+medical biotechnology (red), industrial biotechnology (white), environmental biotechnology (green), and marine biotechnology (blue).
+Biotechnology is technology that utilizes biological systems, living organisms or parts of this to develop or create different products.
+Brewing and baking bread are examples of processes that fall within the concept of biotechnology (use of yeast (= living organism) to produce the desired product).
+With the development of genetic engineering in the 1970s, research in biotechnology (and other related areas such as medicine, biology etc.) developed rapidly because of the new possibility to make changes in the organisms' genetic material (DNA). Today, biotechnology covers many different disciplines (eg. genetics, biochemistry, molecular biology, etc.).

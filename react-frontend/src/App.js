@@ -1,22 +1,26 @@
-import './App.css';
-import { Route, Switch } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
-import Major from './pages/Major';
-import LandingPage from './pages/LandingPage';
+import "./App.css"
+import { Route, Switch } from "react-router"
+import { BrowserRouter } from "react-router-dom"
+import MajorPage from "./pages/MajorPage"
+import TestPage from "./pages/TestPage"
+import LandingPage from "./pages/LandingPage"
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Switch>
+	return (
+		<BrowserRouter>
+			<Switch>
         <Route exact path='/'>
-          <Major/>
-        </Route>
-        <Route path='/landing'>
           <LandingPage/>
         </Route>
-      </Switch>
-    </BrowserRouter>
-  )
+        <Route path='/take-test'>
+          <TestPage/>
+        </Route>
+				<Route path='/major/:name'>
+					<MajorPage />
+				</Route>
+			</Switch>
+		</BrowserRouter>
+	)
 }
 
-export default App;
+export default App

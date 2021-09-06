@@ -1,50 +1,10 @@
-import { Fragment } from 'react'
-import { Disclosure, Transition, Popover } from '@headlessui/react'
-import {
-	BellIcon,
-	MenuIcon,
-	XIcon,
-	ChevronDownIcon,
-	AnnotationIcon,
-	ChatAlt2Icon,
-	InboxIcon,
-	QuestionMarkCircleIcon,
-  ClipboardListIcon,
-} from '@heroicons/react/outline'
-import { PlusIcon } from '@heroicons/react/solid'
-
-const solutions = [
-	{
-		name: 'Inbox',
-		description: 'Get a better understanding of where your traffic is coming from.',
-		href: '#',
-		icon: InboxIcon,
-	},
-	{
-		name: 'Messaging',
-		description: 'Speak directly to your customers in a more meaningful way.',
-		href: '#',
-		icon: AnnotationIcon,
-	},
-	{
-		name: 'Live Chat',
-		description: "Your customers' data will be safe and secure.",
-		href: '#',
-		icon: ChatAlt2Icon,
-	},
-	{
-		name: 'Knowledge Base',
-		description: "Connect with third-party tools that you're already using.",
-		href: '#',
-		icon: QuestionMarkCircleIcon,
-	},
-]
-
-function classNames(...classes) {
-	return classes.filter(Boolean).join(' ')
-}
+import { Disclosure } from '@headlessui/react'
+import { BellIcon, MenuIcon, XIcon, ClipboardListIcon } from '@heroicons/react/outline'
+import { useHistory } from 'react-router'
 
 export default function Navbar() {
+	const history = useHistory()
+
 	return (
 		<Disclosure as='nav' className='bg-white shadow'>
 			{({ open }) => (
@@ -74,19 +34,20 @@ export default function Navbar() {
 									</a>
 								</div>
 								<div className='hidden md:ml-16 md:flex md:space-x-8'>
-                  <a
-                    href="#"
-                    className="border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700 inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full"
-                  >
-                    Majors
-                  </a>
+									<a
+										href='#'
+										className='border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700 inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full'
+									>
+										Majors
+									</a>
 								</div>
 							</div>
 							<div className='flex items-center'>
 								<div className='flex-shrink-0'>
-									<button 
+									<button
 										type='button'
 										className='relative inline-flex items-center px-4 py-2 xl:px-6 xl:py-3 border border-transparent text-sm xl:text-lg font-medium rounded-md xl:rounded-lg text-white bg-secondary-200 shadow-sm hover:bg-secondary-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary-300'
+										onClick={() => history.push('/take-test')}
 									>
 										<ClipboardListIcon className='-ml-1 mr-2 h-5 w-5 xl:h-6 xl:w-6' aria-hidden='true' />
 										<span>Take the Test</span>
