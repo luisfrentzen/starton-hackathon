@@ -1,0 +1,250 @@
+The sooner you realize that harmonics problems are on the rise, the better
+Modern power networks are already pretty dirty because of mass non-linear loads installed without any prior consultation with experts or power analysis.
+It will also refresh your knowledge in the basics of harmonics and give you some good practical tips in designing, installation and protecting PFC (power factor correction) systems and measures.
+Modern low voltage networks increasingly have loads installed that draw non-sinusoidal currents from the power distribution system.
+These load currents cause voltage drops through the system impedances which distort the original sinusoidal supply voltage.
+Fourier analysis can be used to separate these superposed waveforms into the basic oscillation (supply frequency) and the individual harmonics.
+The frequencies of the harmonics are integral multiples of the basic oscillation and are denoted by the ordinal number
+Linear loads are ohmic resistances (resistance heaters, light bulbs, etc.)
+three-phase motors and capacitors, and they are not harmful to the power system.
+Every periodic signal with a frequency f (regardless of the waveform)
+The sine component of the frequency f, known as the fundamental component or h1
+The sine components of the integral multiples of the frequency f, known as the harmonics hn
+In some cases DC components can also be present
+Even harmonics (2nd, 4th, 6th, etc.) as a rule only occur due to sudden load variations or faults in converters.
+Harmonics divisible by 3 (3rd, 9th, 15th, etc.) occur due to asymmetrical loads and single-phase sources of harmonics. Typical sources are office buildings, hospitals, software companies, banks, etc., factories with 2-phase welding equipment.
+Harmonics not divisible by 3 (5th, 7th, 11th, 13th, etc.) occur due to 3-phase sources of harmonics 5th and 7th harmonics: from 6-pulse converters 11th and 13th harmonics: from 12-pulse converters
+The harmonics are transmitted via the transformer! The total harmonic distortion THD is the result of the vector addition of all harmonics present and is, as a rule, expressed as a proportion of the fundamental frequency, thus providing a quick overview of network power quality.
+Harmonics are generated not only in industrial installations but also increasingly in private households.
+As a rule, the devices generating these harmonics only feed in the odd orders, so that it is only the 3rd, 5th, 7th, 9th, 11th, etc. harmonics that are encountered.
+Harmonics are usually produced in a commercial facility’s own low voltage network, especially when variable-speed drives are installed
+They are also generated in every household: in every television, computer and in compact energy-saving lamps with electronic ballasts.
+The sheer number of these loads in the evenings with the currents in phase gives rise to high levels of harmonics in some medium voltage networks.
+The level of harmonics if no PFC system has yet been installed in a facility’s own LV system depends on the power of the installed converters and rectifiers
+If, for example, a large 6-pulse converter is installed in the network and its power rating is 50% of the transformer nominal rating, this gives rise to about
+If, for example, several rectifiers with a combined power of some 25% of the transformer nominal rating are installed
+Line current of a converter for induction motors
+Nowadays, most of these systems are affected predominantly by the devices in private households (mainly television sets) that produce harmonics.
+The level of harmonics in the medium voltage system of a municipal power supply with industrial loads on weekdays
+In densely populated areas in the evenings, frequencies of about 4% 250 Hz and up to 1.5% 350 Hz can be superposed on the medium voltage supply system. The higher harmonics are usually negligible.
+A PFC system with no detuning (Figure 7) forms an oscillatory circuit with reactive line impedances.
+Possibly greatly reduced by long lengths of cable between the transformer and the PFC system.
+When the capacitor stages of the correction system are switched in, the network resonant frequency (fr) changes considerably and is repeatedly close to the frequency of a network harmonic.
+If the natural resonance of this oscillatory circuit is near to a network harmonic that is present, it is to be expected that  will increase the harmonic voltages.
+10% below/above a network harmonic, the latter will be amplified in a network with a high Q-factor (e.g. in the evenings and at night) by a factor of up to 4.
+20% above a network harmonic, the latter will be amplified in a network with a high Q-factor by up to 2.5.
+30% above a network harmonic, the latter will be amplified only slightly, by a factor of up to about 1.7.
+In a network with no harmonic generator of its own, but with pronounced harmonics present in the medium voltage system
+The network short-circuit power determines the resonant frequency and, where harmonic generators are present in that network, the amplitude of the harmonics in the network voltage.
+If the network short-circuit power at the point where the  is connected is too low, this causes problems.
+If the short-circuit power is changed radically due to altered switching conditions, this causes problems.
+When resonance occurs, the network r.m.s. voltage only increases slightly, but the r.m.s. value of the capacitor current increases considerably.
+The network r.m.s. voltage increases by 1%
+The peak value of the mains voltage increases by 6-10%
+The r.m.s. value of the capacitor current increases by 50%!
+No internal harmonic generators installed in the network, no harmonics in the medium voltage system, but a resonant frequency below 400 Hz.
+If changes are made in the network configuration, for example, during maintenance work, the resonant frequency can fall below 400 Hz. Harmonics are present in the medium voltage distribution system.
+The peak values that have occurred are stored, however, and can be retrieved via the EMA 1101 bus interface.
+For distribution systems that are symmetrically loaded, the Power Factor Control Relay can also be installed.
+This instrument monitors the system to detect any resonance that may occur
+For example, FRAKO’s EMR 1100 power factor control relay determines the harmonic voltages in the measured phase and calculates the r.m.s. current to the capacitors.
+If a programmed maximum limit is exceeded, the installation is shut down and switched in when the level falls below its critical value.
+In cases of this description, PFC systems that can be retrofitted with detuning are often installed.
+The best information on the operational characteristics of a planned PFC system is obtained by a combination of two planning activities:
+Measuring the harmonic voltages and currents over several days with no PFC system installed.
+Theoretical calculation of the network resonance characteristics.
+In the measured network, the following harmonic levels are to be expected with PFC: Maximum value of measurement without power factor correction multiplied by the resonance factor from the network analysis.
+An average-size low voltage system with a 1000 kVA transformer.
+The installation, complete with the PFC system, is connected via two 20 m long cables laid in parallel (equivalent to the impedance of a 10 m cable)
+Only purely ohmic loads may be taken into account as equipment such as induction motors have no damping effect on harmonics.
+due to resonance induced amplification are anticipated when planning a PFC system, serious disruptions can occur in the low voltage distribution systems
+A detuned capacitor consists of a capacitor in series with a filter reactor
+Its series resonant frequency is adjusted by the appropriate design of the filter reactor so that it is below the frequency of the 5th harmonic (250 Hz).
+This combination, therefore, has an inductive characteristic for all frequencies above the series resonant frequency.
+The resonance between the capacitors and the reactive network impedances is no longer possible. 
+A detuned system suppresses some of the harmonic currents.
+To prevent overloads due to the 5th harmonic still present in the network, it is a present-day practice to adjust the resonant frequency of the detuned circuit to 189 Hz or less.
+The detuned circuit is characterized either by the capacitor-choke resonant frequency (fr) or by the relative voltage drop (p) at the choke.
+Energy meters are one of the most important components for monitoring and data acquisition in a power system network with roles in every part of the power system network
+from the generation to the commercialized end-users, through multiple transmission and distribution setups.
+They are primarily used for measuring energy for end-user billing and energy trading purpose.
+The vast application of energy meters can be categorized into four major parts of the power system network: Generation, transmission, distribution, and utilization.
+Based on the type of system and application, the specification and customized functions of the meter differ, though the principle of measurement remains the same.
+There are myriad sources of energy used for commercial electricity production, ranging from large-scale nuclear energy to more sustainable solar PV energy.
+In some cases like roof-top solar PV systems, the energy meter should be capable of measuring the net energy to account for both incoming and outgoing power depending upon the availability of solar radiation.
+Similarly, the next major application of the energy meters is in  to monitor the energy consumption pattern and sometimes to bill the inter-branch energy exchanges. Then comes the end-users, the customers of utility companies, where the energy meters are employed for billing purposes.
+shows the four-quadrant operation of energy meters. The first and fourth quadrant operation of meter measures the exported power/energy, whereas the second and third quadrant is for imported power/energy measurement (looking from the utility side).
+The trivector meters are capable of four-quadrant operation and thus can also be used for net metering or reverse energy recording purposes
+This feature of the trivector meters makes them very versatile and useful over a range of applications and also places them in a much higher echelon compared to their electromechanical counterparts, which lack this sort of flexibility.
+Substation monitoring and data acquisition have come a long way from their initial days of analog systems. The modern static energy meters used in incoming and outgoing feeders of power substations come with various additional features.
+A current transformer is necessary to operate PFC systems.
+This is not included in the scope of supply but can be provided with the system after clarification of user requirements. The primary current in the transformer is determined by the user’s current input, i.e. this unit is designed for the maximum current loading or the installed load connected to the power transformer.
+The internal power consumption in the control relay current circuit amounts to some 1.8 VA for a current transformer of rated current 5 A.
+If further instruments need to be powered from the same current transformer, this must be taken into account when specifying its rating.
+Losses also occur in the current transformer wiring and these must also be taken into account if there are long lengths of cable between the current transformer and the reactive power control relay.
+The standard EN 60529 specifies the degree of protection for electrical enclosures by means of two letters and a two-digit number
+Manual of Power Factor Correction
+Substation operation and maintenance is one meticulous and critical job that requires a great deal of expertise and familiarization
+The complexity and scrutiny increase exponentially as the focus shifts to a higher voltage level, as the margin for error tends to zero
+the engineers must never make or break the live circuit via manual disconnecting switches.
+They can very easily be misunderstood for dropout fuses or Load break switches but they are neither of them
+Their sole purpose is to isolate or connect back the downstream part when the circuit is not live and are almost always accompanied by a circuit breaker or other switchgear to make or break the circuit in live mode.
+The substation transformer is static equipment, which converts electrical energy from one voltage to another. As the system voltage goes up, the techniques to be used for the design, construction, installation, operation, and maintenance also become more and more critical
+This technical article contains general descriptions of substation transformer parts (mainly up to 50kV) and some specific details about some of the parts that are important in terms of safety and maintenance.
+The active parts of the transformers consist of core and windings.
+The core is manufactured from a lamination of Cold Rolled Grain Oriented Silicon Steel, which gives very low specific loss at operating flux densities.
+Windings are made from paper insulated copper conductors which are transposed at regular intervals throughout the winding for ensuring equal flux linkage and current distribution between strands.
+Interleaved or shielded construction is adopted for the high voltage windings to ensure uniform distribution of impulse voltages
+This technical article deals with Schneider Electric’s newest isolation power solutions that help panel builders to deliver the ultimate in power availability, operational efficiency, and safety in hospitals
+Schneider Electric is the number one provider of secure power distribution systems and components worldwide
+All isolated power solutions are engineered for patient safety and continuity of supply and ensure the efficiency of medical personnel
+Isolated power solutions provide essential, timely, and secure information about electrical system status and diagnostics to key staff, either on-site or remotely.
+Isolated power solutions allow the early detection of hazardous current levels within critical systems in healthcare facilities allowing systems to remain online and patients, staff, and infrastructure protected.
+Reduce electrical shock risk
+Reinforce energy availability
+Support operational efficiency
+Fully IEC standard compliance
+This is how classic solution functional units and components are physically organized by functions performed and designed to protect from direct contact
+The solution diagram of a classic isolated power solution includes equipment like Main LV Switchboard, Central UPS, Isolated Power Switchboard
+Communication systems of electric utilities have become increasingly critical to electric system protection, operation, and maintenance
+For fast tripping and clearing of system faults, communication-aided relaying has become a common protection scheme, particularly in line protection.
+Control centers depend on reliable communication channels to remotely operate substation circuit breakers and switches, telemeter electrical quantities of the electric system, and monitor substation alarms.
+Maintenance engineering has also become increasingly dependent on communications for remote access to intelligent electronic devices such as relays, remote terminal units, digital fault recorders, and revenue meters
+the communication system design internal to the substation that feeds into the external communications and documents relay-to-relay communications;
+more complex block diagram for part of a substation automation system that shows IRIG-B distribution
+SCADA is an important part of substation control and protection and its integration to protective relay schematic is very common
+Functional/Network diagram (firewall, router, switch, IED, meters, HMI, transducers, multiplexer)
+The connections worksheet can detail the communication settings for the ports being used in the system, with serial port and network port settings showing relevant information about the connection type
+But, do electrical engineers really understand what they do when setting parameters and navigate through endless menus on a relay? Most engineers do know, of course, but the memory naturally fades over time, and it’s a good thing to refresh the basics you learned many years ago.
+Overcurrent protection is often confused with overload protection which is related to the thermal capability of circuits
+ Overcurrent protection is primarily provided for the correct clearance of faults
+Overcurrent protection in low- and medium voltage networks can be achieved by the use of fuses, by direct-acting trip mechanisms on circuit breakers or by protection relays
+Where a source of electrical energy feeds directly to a single load, a little complication in the circuit protection is required beyond the provision of an overcurrent device that is suitable in operating characteristics for the load in question, i.e. appropriate current setting possibly with a time-lag to permit harmless short time overloads to be supplied.
+Overcurrent protection involves the inclusion of a suitable device in each phase since the object is to detect faults that may affect only one or two phases. Where relays are used, they will usually be energized via current-transformers, which latter are included in the above statement.
+the characteristics of certain types of plant, e.g. faults on delta-connected transformer windings
+With normal load current, the output of such a group is zero, and this is also the case with a system phase-to-phase short circuit
+Since the protection is not energized by a three-phase load current, the setting can be low, giving the desired sensitive response to earth-fault current.
+Phase-fault and earth-fault protection can be combined
+If protection is given to the system shown in  by simple instantaneous tripping devices, set so that those furthest from the power source operate with the lowest current values and progressively higher settings apply to each stage back towards the source, then if the current were to increase through the range of settings, the device with the lowest setting of those affected would operate first and disconnect the overload at the nearest point.
+A minimum source power of 130 MVA may be assumed for illustration in this example, for which the corresponding fault current at F1 would be only 5400 A and for a fault close up to Station A the current would be 6850 A. A trip set at 8800 A would therefore not protect any of the relevant cable under the reduced infeed conditions
+The transformer is not necessarily adequately protected by such high set protection.
+The problem discussed in the preceding Section is resolved by arranging for the equipment which trips the circuit breaker most remote from the power source, to operate in the shortest time, each successive circuit breaker back towards the supply station being tripped in progressively longer times; the time interval between any two adjacent circuit breakers is known as the ‘grading margin
+instantaneous overcurrent relays are used in the role of starters or fault detectors
+The two curves correspond to protective devices having the same current setting, whilst curve A shows twice the operating time as does curve B for any current value
+There is therefore a ‘grading margin’ of 0.5 s whereby the fault can be expected to be cleared at B and protective device A will reset without completing its full operation
+Had the current step been greater, the best operation of A might have been even faster than that for B, although such a gain in speed is unusual in practice
+Although fuses are graded by the use of different current ratings in series, discriminative operation with large fault currents is obtained because the fuses then operate at different times.
+Grading can be achieved by fitting delaying devices direct to the circuit-breaker trip mechanism
+The resistance of the fuse and its connections is low compared with the impedance of the trip coil, and consequently, the majority of the current, supplied by the current transformer, passes through the fuse. If the current is high enough when a fault occurs, the fuse blows, and the current is then transferred to the trip coil.
+These differences constitute the discrimination time. Unlike main fuse protection, this margin must not be reduced to a very low value, since it must cover the tripping time of the circuit breaker
+Relays can have many different settings for which there are as many time-current curves
+Since large-scale power-system tests are normally impracticable, fault currents must be calculated
+It is first necessary to collect system data and then to calculate maximum and minimum fault currents for each stage of grading
+Minimum fault currents (i.e. short-circuit current with a minimum amount of feeding plant or circuit connections) are determined in order to check that current settings are satisfactory to ensure that correct operation will occur.
+single-line diagram of the power system, showing the type of all protective devices and the ratio of all protective current transformers
+The impedances in ohms, percent or per unit, of all power transformers, rotating machines, and feeder circuits
+It is generally sufficient to use machine transient reactance, and to use the symmetrical current value; subtransient effects and offset are usually of too short duration to affect time-graded protection.
+The starting current requirements of large motors and the starting and stalling times of induction motors may be of importance.
+The maximum peak load current is expected to flow through protective devices. ‘Peak load’ in this context includes all short-time overloads due to motor starting or other causes; it does not refer to the peak of the current waveform.
+Decrement curves showing the rate of decay of the fault current supplied by generators
+Excitation curves of the current transformers and details of secondary winding resistance, lead burden, and other connected burdens.
+Each piece of electrical equipment on a distribution system has a probability of failing
+Healthy equipment can fail due to extreme currents, extreme voltages, mischievous animals, severe weather, and many other causes.
+Sometimes equipment will fail spontaneously for reasons such as chronological age, thermal age, state of chemical decomposition, state of contamination, and state of mechanical wear.
+Accepting loss-of-life will improve reliability for the moment, but will increase the probability that the overloaded transformers will fail at a future date.
+The life of a transformer is often defined as the time required for the mechanical strength of the insulation material to lose 50% of its mechanical strength
+The rate of breakdown increases exponentially with temperature, allowing the expected life of insulation to be expressed by the Arrhenius theory of electrolytic dissociation
+Transformers have many accessories that can also fail. Failures associated with pumps, fans, and blocked radiators reduce the ability of transformers to dissipate heat but do not cause outages directly
+A major reliability concern pertaining to underground cables is electrochemical and water treeing.
+Treeing occurs when moisture penetration in the presence of an electric field reduces the dielectric strength of cable insulation
+Steady-State Voltage Withstand Test
+Impulse Voltage Withstand Test
+Partial Discharge Test
+Partial Discharge Test: a small high-frequency signal is injected at one end of the cable
+Signal reflections detected by sensors indicate the number and location of partial discharge points.
+Power Factor Test
+Dielectric Spectroscopy
+Degree of Polymerization
+Indentor Test
+using special cable indentors to test the hardness of the cable insulation.
+The bare conductor is able to withstand much higher temperatures than insulated conductors and damage due to high currents is less of a concern.
+High currents will cause lines to sag, reducing ground clearance and increasing the probability of phase conductors swinging into contact.
+Higher currents can cause conductors to anneal, reducing tensile strength and increasing the probability of a break occurring
+Due to thermal inertia, the conductor sag will not occur instantaneously. Typical lines have thermal time constants between 5 and 20 minutes, allowing temporary overloading without sag concerns
+More sophisticated methods include core sampling, sonograms, indentation testing, and electrical resistance testing
+Low impedance faults typically have contact resistances of less than 2Ω
+Circuit breakers are complicated devices that can fail in many different ways
+Circuit breakers can fail to open or close due to faulty control wiring, uncharged actuators, or simply being stuck
+MOVs have a highly nonlinear resistance (as a function of voltage), do not conduct excessive currents during normal operation, and generally do not require an air gap
+When the voltage exceeds a certain threshold, the resistance of the MOV drops sharply and clamps voltage across the device (similar to a Zener diode).
+Insulator and bushing failures are associated with dielectric breakdown
+A dielectric breakdown in an insulator allows current to arc across the device
+If you are serious about electrical design, you can learn to design electrical systems in the most popular software like Matlab/Simulink, AutoCAD, ETAP, or Dialux.
+Different types of electrical drawings, various lighting schemes, and lighting situations
+Requirements for a good lighting scheme, maintenance, and utilization factors
+Lighting design steps (use of catalogs and photometric data in Dialux)
+How to do the manual calculation for lighting instead of Dialux
+Interior design drawing by taking a factory floor and start creating rooms in Dialux.
+Wiring using AutoCAD and connect the luminaries with Wires and connect to the panel.
+Adding sockets, do the wiring for them, and connect them to the panel
+Electrical panel schedule for our project.
+Circuit breakers and cables and how to select them for our project
+Earthing system and how to design it
+Calculation of the voltage drop and short circuit analysis using ETAP.
+You will learn why we need earthing and grounding systems and the three fundamental grounding systems called TN, TT, and IT.
+The basics of electrical engineering, basic formulae, types of load, operating voltage levels
+The need for a capacitor bank, the benefits, and how to calculate the size of the capacitor bank.
+Calculation of lighting/raw power socket, fans, no. of lighting fixtures, sizing of A/C, load scheduling/balancing, distribution board, etc.
+Types of motor and their application, starting methods, starting current, etc.
+Transformer parts, classification, cooling methods, winding insulation class, faults, size calculation, etc
+Short circuit current capacity calculation for proposed cables, calculate the tripping time of CB
+This course covers utility distribution stations and feeder protection including fuses, new intelligent electronic device (IED) relays, and old-school time overcurrent relays
+Feeder relays and apparatus are examined including reclosers.
+Power transformer protection is reviewed including current mismatch caused by differing CT ratios; delta-wye transformation & currents shifts; mismatch induced by load tap-changers; CT saturation and remanence, inrush phenomena, and harmonic content problems.
+Planning an automation project and the electrical wiring on that project starts with power calculations
+Transformer with primary and secondary side, transformer only with secondary side, coupling to use when you have also emergency power supply, like a diesel aggregate (generator), etc.
+Electrical consumers ranging from general devices, motors (including DOL, soft starter, reverse-duty, and frequency converter), power outlets up to special dummy loads. You even have the possibility to insert a charging unit for electric cars
+Function, classification, and voltage of electrical substations.
+Main components like power transformers, conductors, insulators, switch gears, current transformer, capacitor voltage transformer, and voltage transformer.
+Different types of circuit breakers, relays, their classification according to time, construction, and function
+Difference between circuit breaker and fuse and their applications
+IP or ingress protection
+Grounding system including the effect of current on the human body and components of the grounding system
+Types of electric hazards and classification of earthing systems
+Measuring the earthing resistance by Megger and the three-point method
+Design of an earthing system using ETAP program
+Ring main unit and its importance in electrical power system
+Types of switches used in electrical power systems and substations
+Overhead transmission lines, underground cables, and the difference between them
+Busbars in power system, its importance, its different schemes and how to select them
+Lightning arrester and wave trap used in substations
+Air and gas-insulated substations.
+Overview of the design of an electrical substation and single line diagram of 66/11 kV substation
+ Also referred to as load flow, power flow is the analysis of how apparent, real, and reactive power flows between parts of a power system, from generation to loads
+Two different methods will be covered, which are the most widely used methods in power system analysis: the Gauss-Seidel method and the Newton-Raphson method.
+Also referred to as faults, short circuits are undesired occurrences in power systems when conductors are shorted between each other, to ground, or a combination of these.
+we will introduce the technique of symmetrical components, which allows us to analyze unbalanced power systems more easily
+By learning about power flow analysis and short circuit analysis and how they are used in power systems, you will be able to continue your study of power system analysis for a career in power engineering and electrical engineering
+the system switching in case of emergency operating conditions is either manual or automatic, depending on the permitted duration of interruption periods and obviously the nature of loads.
+it seems that everything we do tend to be somehow automated. The very same is happening in electrical distribution systems.
+The distribution system at the medium voltage (MV) or low voltage (LV) levels is designed using different structures such as radial, double radial, open ring, and closed ring. Each one is selected based on load priority and the desired reliability level.
+Distribution system automation helps to raise the reliability level by decreasing the interruption duration, isolating the faulty parts, keeping the system equipment functioning, and automating the required switching processes during system operation.
+It is required to install standby generators as a backup to the utility supply to avoid the uncertainty in utility power reliability and damage in the event of power failure
+Transfer-switches panel located at the DP of each floor
+The interconnection between the equipment and the control room
+It is clear that the space required for the control room will be large, and the number of wires needed between panels and remote points is also increased.
+The information about the system status can be sent to the PLC to execute the corresponding control commands while the other information is used for system planning, maintenance, and operation.
+This system with high data acquisition and reporting requirements (but with limited control) is defined as SCADA.
+the current and potential transformers send samples of phase currents and phase voltages to be used as inputs to the protection relay
+In turn, if these inputs violate prespecified values, the relay sends a tripping signal to the CB to be opened.
+The ability of PLCs to move past simple control to more complex schemes as proportional/integral/derivative (PID) control;
+Telemetry is the initial step in applying SCADA by defining the technique used for measuring the data (voltage, current, speed, etc.)
+Data acquisition refers to the method used for accessing and collecting the data from the devices being controlled and monitored, and to be forwarded to a telemetry system ready for transfer to the various sites
+This component refers to the devices used for monitoring certain parameters such as sensors and the devices used for controlling certain modules such as actuators
+The geographically dispersed RTUs are connected to the MTU through a variety of communication channels, including radio links, leased lines, and fiber optics.
+To convey information from one point (sending end [SE]) to another point (receiving end [RE]) through a communication channel, it must be modulated at the SE and demodulated at RE
+In the SCADA system structure, it is needed to transmit information from different locations to one point, that is, multi-transmitter to one receiver.
+In the FDM technique, each piece of information is transmitted over a dedicated part of the available communication channel spectrum
+these breakers combine the short-circuit and isolation functionality of the MCCB with the motor overcurrent protection of a traditional overload relay.
+The precise tripping value is either adjustable (matching for selectivity or various making current peaks in case of transformer and generator protection) or is determined by the design.
+Current-limiting circuit breakers limit the fault current and hence reduce the mechanical and thermal stress in the event of a fault
