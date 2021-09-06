@@ -248,3 +248,51 @@ Algorithms are used for calculation, data processing, and automated reasoning.
 Uses for machine learning include data mining and pattern recognition.
 Algorithms can make systems smarter
 Data scientist, Software tester, Web developer, Systems analyst, Business analyst, Product manager, Network architect, Software engineer, Software developer, Full-stack developer, Engineering manager, User interface designer, Database administrator, Cloud computing engineer, Information security analyst, Computer science professor, Chief information security officer, Software quality assurance manager, Information technology specialist, Mobile application designer or developer, Research and development (R&D) scientist, Computer scientist or computer science researcher, Artificial intelligence and machine learning engineer
+My passion for computers have led me to expand my knowledge in computer science because I find it fascinating.
+From a young age, I was absolutely attracted by computer games which later develop into an interest for programming.
+I selected computing as my career because of its opening, modernity and the challenges it beholds.
+I feel the need for a higher education as it gives me exposure to the most recent technologies and to prepare myself in a competitive environment.
+I spend lots of time on the computer researching new developments in the IT industry and browsing good deals on computer parts.
+I enjoy assembling personal computers for family and friends and I am also in charge of managing the network and computers in my household.
+I am very enthusiastic and confident with regards to anything involving computer systems.
+We close with some reflections by computer scientists on the nature of the field and the sources of their passion in their own work.
+Sussman identifies a distinctive characteristic of computer science as “procedural epistemology”—the representation of imperative knowledge that allows us to treat a symbolic expression as data for purposes of analysis and as procedure for purposes of dynamic interpretation.
+The ability to represent data and procedures in symbolic form provides the enormous power of precise expression and reasoning.
+Newell writing in 1976 is enchanted by the notion that computer technology may incorporate intelligent behavior into objects.
+We can create “frozen action to be thawed when needed,” and the action can be conditional on the state of the world.
+We close with one of the oldest attempts among computer scientists to define computer science.
+In a reprinted letter first published in 1967, Newell, Perlis, and Simon characterize computer science broadly as the study of the phenomena surrounding computers.
+My goal is to serve society by using computers as a platform.
+In India all official work from school to small scale offices is mostly carried out on paper because of a deficit of software and data warehouses.
+My intent is to start an organization which develops software as per the customer’s requirements and help them to maintain their data on a data warehouse with suitable architectures.
+To achieve this, I seek a quality graduate education, with rigorous course work and the opportunity for research in web technologies and database management systems.
+I was a part of a team that started online registrations for the first time in the college festival using a website hosted on a cloud server.
+Maybe you’re a gamer.
+Perhaps in school, you had an aptitude for math.
+If neither of these apply to you, ask yourself this: Do your friends describe you as logical, practical, and resourceful? Do you enjoy tasks with clear metrics of success and failure?
+If those things resonate with you, you’ll fit naturally in technical positions such as a web developer, security analyst, database administrator, or software developer.
+For these positions, you need to be able to quickly identify a problem and develop an efficient solution.
+Problem solving is the single most important skill for any IT professional to have, says Lisa Landgraff, academic director of the UW Applied Computing program and professor in the Computer Science and Software Engineering Department at UW-Platteville.
+a powerful predictor of coding success.
+“Code and music are both systems, says Landgraff.
+So, it makes sense that musicians would make good coders.
+Computer Science (CS) is the study of the principles and use of computers.
+Simply put it's the science that deals with the theory and methods of processing information in digital computers, the design of computer hardware and software, and the applications of computers.
+A computer is simply a tool for a computer scientist, like a telescope for an astronomer.
+Artificial Intelligence (AI), Computer Engineering, Computer Security, Computer Programming, Robotics, Neural Networks, Software Engineering, Computer Graphics, Machine Learning, Computer Networks, Computational Biology, Data Science.
+Computing is part of everything we do.
+Expertise in computing enables you to solve complex, challenging problems.
+Computing enables you to make a positive difference in the world.
+Computing offers many types of lucrative careers.
+Computing jobs are here to stay, regardless of where you are located.
+Expertise in computing helps you even if your primary career choice is something else
+Computing offers great opportunities for true creativity and innovativeness.
+Computing has space for both collaborative work and individual effort.
+Computing is an essential part of well-rounded academic preparation.
+Future opportunities in computing are without boundaries.
+In a nutshell, computer science degrees deal with the theoretical foundations of information and computation, taking a scientific and practical approach to computation and its applications.
+Computation is defined as any type of calculation or use of computing technology that follows well-defined models (such as algorithms and protocols) in the practice of information processing (which in turn is defined as the use of these models to transform data in computers).
+Computer science is considered by many of its practitioners to be a foundational science - one which makes other knowledge and achievements possible.
+The study of computer science involves systematically studying methodical processes (such as algorithms) in order to aid the acquisition, representation, processing, storage, communication of, and access to information.
+This is done by analyzing the feasibility, structure, expression and mechanization of these processes and how they relate to this information.
+In computer science, the term ‘information’ refers usually to information which is encoded in bits and bytes in computer memory.

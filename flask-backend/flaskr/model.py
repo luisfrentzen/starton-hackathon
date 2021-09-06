@@ -12,13 +12,13 @@ titles = ['biotechnology', 'business_economics', 'chemical_engineering', 'comput
 
 FILE_PATH = os.getcwd()
 
-file = open(FILE_PATH+"/scripts/bernoulli_model_v1_c10_e230.pickle", "rb")
+file = open(FILE_PATH+"/scripts/bernoulli_model_v2_c10_e293.pickle", "rb")
 bernoulli = pickle.load(file)
 file.close()
-file = open(FILE_PATH+"/scripts/mnb_model_v1_c10_e230.pickle", "rb")
+file = open(FILE_PATH+"/scripts/mnb_model_v2_c10_e293.pickle", "rb")
 multinomial = pickle.load(file)
 file.close()
-file = open(FILE_PATH+"/scripts/logistic_model_v1_c10_e230.pickle", "rb")
+file = open(FILE_PATH+"/scripts/logistic_model_v2_c10_e293.pickle", "rb")
 logistic_regression = pickle.load(file)
 file.close()
 
