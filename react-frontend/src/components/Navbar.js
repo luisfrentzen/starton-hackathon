@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const history = useHistory();
   const location = useLocation();
-  console.log(location.pathname);
 
   return (
     <Disclosure as="nav" className="bg-white shadow relative z-50 sticky top-0">
@@ -44,10 +43,10 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="flex items-center">
-                <div className="hidden md:ml-16 md:flex md:space-x-8">
+                <div className="hidden md:mr-16 md:flex md:space-x-8 h-full">
                   <Link
                     to="/majors"
-                    className="border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700 inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full"
+                    className={`inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full ${location.pathname.includes('majors') ? 'border-secondary-200 text-gray-700' : 'border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700'}`}
                   >
                     Majors
                   </Link>

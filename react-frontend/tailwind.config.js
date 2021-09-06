@@ -34,7 +34,7 @@ module.exports = {
 						transform: "translateX(0)",
 					},
 					"50%": {
-						transform: "translateX(-5%)",
+						transform: "translateX(-10%)",
 					},
 				},
 				"chart-grow-50": {
