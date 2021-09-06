@@ -1,4 +1,3 @@
-import { useHistory } from 'react-router'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 
@@ -64,7 +63,6 @@ const footerNavigation = {
 }
 
 export default function LandingPage() {
-  const history = useHistory()
 
 	return (
 		<div className='bg-white'>
@@ -77,11 +75,9 @@ export default function LandingPage() {
 				<div className='relative h-screen'>
 					<div className='w-full h-full bg-gradient-to-tr from-secondary-400 via-secondary-200 to-secondary-100 sm:px-6 lg:px-8  h-5/6'>
 						<div className='relative h-full'>
-              {/* pt-16 pb-24 sm:px-10 sm:pt-24 sm:pb-32 xl:pt-20 xl:pb-64 2xl:pt-60 2xl:pb-80 lg:px-12 */}
 							<div className='px-8 h-5/6 flex flex-col items-center justify-center'>
 								<h1 className='text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl'>
-									<span className='block text-white'>Take control of your</span>
-									<span className='block text-blue-200'>customer support</span>
+									<span className='block max-w-screen-md bg-gradient-to-br from-white to-blue-300 bg-clip-text text-transparent'>Take control of your customer support</span>
 								</h1>
 								<p className='mt-8 max-w-lg mx-auto text-center text-xl lg:text-2xl text-blue-50 sm:max-w-4xl'>
 									Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
@@ -134,12 +130,12 @@ export default function LandingPage() {
 										pharetra at. Lectus viverra dui tellus ornare pharetra.
 									</p>
 									<div className='mt-6 sm:mt-10'>
-										<a
-											href='#'
+										<Link
+                      to='/majors'
 											className='inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-accent-100 to-accent-200 hover:from-accent-200 hover:to-accent-300'
 										>
 											Read about Majors
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>

@@ -7,7 +7,7 @@ import { majorData } from '../data/MajorData'
 const MajorPage = () => {
 	const { name } = useParams()
 
-	let selectedMajor = majorData.find(x => x.id == name)
+	let selectedMajor = majorData.find(x => x.id === name)
 
 	if (selectedMajor == null) {
 		return <Redirect to='/' />
@@ -24,6 +24,7 @@ const MajorPage = () => {
 						<img
 							src={`/assets/${selectedMajor.image}`}
 							className='h-80 w-auto mt-10 drop-shadow-lg filter'
+							alt={selectedMajor.name}
 						></img>
 					</div>
 					<div className='w-1/2 flex flex-col items-start justify-start pr-20 py-56'>

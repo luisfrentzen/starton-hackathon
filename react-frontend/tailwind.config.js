@@ -1,3 +1,9 @@
+
+				// "secondary-100": "#00B0FF",
+				// "secondary-200": "#046ee8",
+				// "secondary-300": "#005EDD",
+				// "secondary-400": "#0046BF",
+
 module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
@@ -5,9 +11,9 @@ module.exports = {
 		extend: {
 			colors: {
 				"secondary-100": "#00B0FF",
-				"secondary-200": "#0477fb",
+				"secondary-200": "#046ee8",
 				"secondary-300": "#005EDD",
-				"secondary-400": "#0046BF",
+				"secondary-400": "#1D50E2",
 				primary: "#ffffff",
 				"accent-100": "#FFA32E",
 				"accent-200": "#fb8804",
