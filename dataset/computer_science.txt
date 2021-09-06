@@ -198,3 +198,53 @@ Technology moves at lightning speed, and sometimes in unexpected directions.
 Game development is nothing without innovation.
 The process of creating a video game is a complicated thing.
 Ubisoft, EA, Blizzard and such video games company will hire.
+Students in a computer science major enter the dynamic world of technology, studying topics like artificial intelligence, software design and computer graphics. 
+By the time majors complete their degrees, they will have the skills to examine complex problems with computer tools.
+Computer science is a major for problem solvers who want to learn how to use computers and computational processes to build websites, program robots, mine data and more.
+Students will gain experience with the theory and practice of computer science as they explore algorithms, programming languages and operating systems, for example.
+In classes, majors may apply their learning to topics like computational finance, robotics and network security.
+Undergraduates may also be able to access research opportunities.
+Common Coursework Computer Science Majors Can Expect
+Computer science majors must study calculus to earn their degrees, and other relevant math courses include statistics and linear algebra.
+Introductory computer science classes cover topics like algorithm design, computer organization and abstract data types. 
+Programming is the process of creating a set of instructions that tell a computer how to perform a task.
+Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++.
+Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs. 
+These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation, or coding reserved for the actual writing of code.
+Software engineering combines engineering techniques with software development practices. Reverse engineering is a related process used by designers, analysts and programmers to understand and re-create/re-implement.
+This school year, teachers at five middle and high school sites have provided Saturday remote learning sessions to support the targeted students in learning how to create artificial intelligence (AI) voice-enabled chatbots using a project-based approach to solve culturally-relevant problems in student homes, schools, and communities. 
+The project has also provided teacher professional development in IBM Watson’s AI voice assistant (chatbot), artificial intelligence, special education strategies, universal design, and project-based learning.
+The project has also provided teacher professional development in IBM Watson’s AI voice assistant (chatbot), artificial intelligence, special education strategies, universal design, and project-based learning.
+The discipline of computer science includes the study of algorithms and data structures, computer and network design, modeling data and information processes, and artificial intelligence.
+Computer science draws some of its foundations from mathematics and engineering and therefore incorporates techniques from areas such as queueing theory, probability and statistics, and electronic circuit design.
+Computer science also makes heavy use of hypothesis testing and experimentation during the conceptualization, design, measurement, and refinement of new algorithms, information structures, and computer architectures.
+Computer science is considered as part of a family of five separate yet interrelated disciplines: computer engineering, computer science, information systems, information technology, and software engineering.
+The major subfields of computer science include the traditional study of computer architecture, programming languages, and software development.
+The roots of computer science lie primarily in the related fields of mathematics, electrical engineering, physics, and management information systems.
+Mathemathics is the source of two key concepts in the development of the computer—the idea that all information can be represented as sequences of zeros and ones and the abstract notion of a “stored program.”
+In the binary number system, numbers are represented by a sequence of the binary digits 0 and 1 in the same way that numbers in the familiar decimal system are represented using the digits 0 through 9. 
+The Boolean algebra developed in the 19th century supplied a formalism for designing a circuit with binary input values of zeros and ones [false or true, respectively, in the terminology of logic] to yield any desired combination of zeros and ones as output.
+The invention of the transistor and the miniaturization of circuits, along with the invention of electronic, magnetic, and optical media for the storage and transmission of information, resulted from advances in electrical engineering and physics.
+Management information systems, originally called data processing systems, provided early ideas from which various computer science concepts such as sorting, searching, databases, information retrieval, and graphical user interfaces evolved.
+The path to earning a college degree in computer science can begin in high school. Some institutions offer classes in basic programming principles, and physics and mathematics classes are beneficial as well.
+develop iOS, Android, web applications, and e-commerce.
+Web development gives you the opportunity to express yourself creatively on the internet.
+challenging career centered on creative problem-solving and continuous innovation.
+The technology industry moves quickly, and web developers are constantly learning and advancing in their careers.
+Coding allows you to take all the ideas that you have in your head and make them come to life.
+Web developers are a crucial part of a company’s success.
+Programming is perfect for those who like to be organized and detailed oriented.
+Web development combines creativity and analytical skills perfectly.
+Organisations are willing to pay high salaries to attract the best developers.
+JavaScript, CSS or HTML a career in web development allows you to focus on areas you enjoy
+You'll be able to create first-class user experiences and charming websites
+Freelance developers enjoy higher wages and more creative freedom.
+Programming is the process of taking an algorithm and encoding it into a notation, a programming language, so that it can be executed by a computer.
+Algorithms when used, helps you accomplish your tasks efficiently.
+Algorithmic thinking, or the ability to define clear steps to solve a problem, is crucial in many different fields.
+we use algorithms and algorithmic thinking all the time.
+Algorithmic thinking allows students to break down problems and conceptualize solutions in terms of discrete steps.
+Algorithms are used for calculation, data processing, and automated reasoning.
+Uses for machine learning include data mining and pattern recognition.
+Algorithms can make systems smarter
+Data scientist, Software tester, Web developer, Systems analyst, Business analyst, Product manager, Network architect, Software engineer, Software developer, Full-stack developer, Engineering manager, User interface designer, Database administrator, Cloud computing engineer, Information security analyst, Computer science professor, Chief information security officer, Software quality assurance manager, Information technology specialist, Mobile application designer or developer, Research and development (R&D) scientist, Computer scientist or computer science researcher, Artificial intelligence and machine learning engineer
