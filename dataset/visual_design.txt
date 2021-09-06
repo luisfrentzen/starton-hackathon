@@ -199,3 +199,53 @@ designing “stuff” is just one very small portion – but I still consider my
 If you don’t see yourself as a designer when you’re doing construction drawings – you’re not in the right job. 
 If you consider yourself a designer, you make it a point to notice your surroundings. As a characteristic, designers are curious and they take notice and make notes of things others overlook.
 A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. 
+A design concept is the core idea driving the design of a product, explained via a collection of sketches, images, and a written statement. 
+This helps the designers and, later, the developers stay on track throughout the creative process, ensuring they bring a product to market with value to target users.
+An effective design concept makes the goal of the product explicit and serves as the foundation upon which the product is built. 
+Developing a design concept demands a clear understanding of the type of problems to be solved, the ideal aesthetic style, the target audience, and the client’s needs (if working on an external project). 
+When preparing to write a design concept, the first step is always defining the problem to be solved — which may be a solo or group task.
+For the latter, consider an ideation session that brings key members of the design (and other teams) together to make the problem and solution as concrete as possible.
+The visual elements of a design concept may comprise sketches (covering user flow, layout, menus, etc.) and basic renderings, which help demonstrate how users will interact with the product.
+Multiple design options can be explored, as designers work to determine the most effective, user-friendly structure and aesthetics. 
+What minor or major changes can you implement to make your product stand out?
+You may gather valuable user data by distributing questionnaires to gauge their experiences of existing products.
+Client branding and user expectations should be taken into account for consistency, too. 
+Seeking inspiration from reference materials is the next stage. 
+Collect examples of great design elements, visuals, or features that stand out in existing products.
+These could be logos, menu designs, animations, colors — anything and everything which inspires the designers.
+Finally, design concepts should be reviewed before development begins. 
+Research and prototyping may reveal that certain features are harder to implement than expected, or that the original concept was trying to solve too many problems.
+Big and small changes may be required to reach a stage at which product development can start. 
+That’s why sketching and renderings should be kept simple at the design concept stage.
+Start by identifying the problem the design sets out to solve and discuss how it does so clearly. 
+Design concepts should be simple and concise.
+This is especially important when working with clients who may lack technical knowledge but still need to understand how users will interact with their product.
+In product management, a design concept is an initial framework upon which to build a product’s design and eventual development. 
+It establishes what a product’s design is supposed to achieve and how the user interacts with it.
+When it comes to modern video production efficiency, a lot goes into the post-production process.
+It is the area of production where not only we get to play with the raw footage, but we also get to make a decision in what the final video will look like.
+Sometimes an entire video can be written while editing.
+This can be done by taking raw footage and using it as material to tell a story.
+Unlike the Film editing of old, digital video editing allows for both a faster and more creative process.
+The video editor can take all of the raw footage and organize them on one, convenient computer timeline.
+Our footage is organized into various digital folders. 
+The digital video editor then grabs whatever clip they need.
+Without having to move through bins and bins of film, the digital video editor can finish your desired project at a productively faster pace.
+Visual effects have even become more accessible with digital editing. 
+Many visual effects such as black-and-white and super-imposed images needed to go through a long process with the film.
+However, if we want a green screen effect using two layers of footage, the digital video editor can place them together easily.
+No matte paintings or any other time-consuming effect with film.
+Now, although the digital editing system carries plenty of effects to be used, they still require the same level of expertise that any other collaborative, creative project requires.
+That is why here at Adrenaline Broadcasting, a digital video editor must come with the experience and artistic eye needed to make sure that the images come off in a convincing and compelling fashion on screen. 
+Digital editing or, to be precise, Scholarly Digital Editing, shares many of the same goals as traditional print-based Scholarly Editing.
+The digital paradigm that informs a SDE means that the space constraints of a print-based edition can be disregarded.
+Textual encoding – or mark-up – is the process by which plain text (which can be read by humans) is converted into machine-readable text (which can be read by both humans and computers). 
+For example, if a human sees the word ‘Shakespeare’ he or she is likely to identify that word as the name of an author.
+Image editing encompasses the processes of altering images, whether they are digital photographs, traditional photo-chemical photographs, or illustrations. 
+Traditional analog image editing is known as photo retouching, using tools such as an airbrush to modify photographs or editing illustrations with any traditional art medium.
+Graphic software programs, which can be broadly grouped into vector graphics editors, raster graphics editors, and 3D modelers, are the primary tools with which a user may manipulate, enhance, and transform images.
+Many image editing programs are also used to render or create computer art from scratch.
+Raster images are stored in a computer in the form of a grid of picture elements, or pixels. 
+These pixels contain the image's color and brightness information. Image editors can change the pixels to enhance the image in many ways.
+Camera or computer image editing programs often offer basic automatic image enhancement features that correct color hue and brightness imbalances as well as other image editing features, such as red eye removal, sharpness adjustments, zoom features and automatic cropping. 
+Many image file formats use data compression to reduce file size and save storage space. Digital compression of images may take place in the camera, or can be done in the computer with the image editor. 

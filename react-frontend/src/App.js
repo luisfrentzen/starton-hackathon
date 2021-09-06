@@ -1,18 +1,22 @@
 import "./App.css"
 import { Route, Switch } from "react-router"
 import { BrowserRouter } from "react-router-dom"
-import Home from "./pages/Home"
-import Major from "./pages/Major"
+import MajorPage from "./pages/MajorPage"
+import TestPage from "./pages/TestPage"
+import LandingPage from "./pages/LandingPage"
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Switch>
-				<Route exact path='/'>
-					<Home />
-				</Route>
+        <Route exact path='/'>
+          <LandingPage/>
+        </Route>
+        <Route path='/take-test'>
+          <TestPage/>
+        </Route>
 				<Route path='/major/:name'>
-					<Major />
+					<MajorPage />
 				</Route>
 			</Switch>
 		</BrowserRouter>

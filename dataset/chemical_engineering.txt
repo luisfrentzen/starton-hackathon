@@ -148,14 +148,14 @@ A liquid has a definite volume but takes the shape of its container.
 Gases may liquefy when they cool, as is the case with water vapor.
 Plasma has neither a definite volume nor a definite shape
 Scientists are discovering new states of matter all the time
-In addition to the four main states of matter, other states include superfluid,
+ In addition to the four main states of matter, other states include superfluid,
 The periodic table arranges the elements by periodic properties, which are recurring trends in physical and chemical characteristics. 
-Elements tend to gain or lose valence electrons to achieve stable octet formation
+ Elements tend to gain or lose valence electrons to achieve stable octet formation
 The atomic radius of an element is half of the distance between the centers of two atoms of that element that are just touching each other
 Generally, the atomic radius decreases across a period from left to right and increases down a given group
-The atoms with the largest atomic radii are located in Group I and at the bottom of groups.
+ The atoms with the largest atomic radii are located in Group I and at the bottom of groups.
 Moving from left to right across a period, electrons are added one at a time to the outer energy shell
-Electrons within a shell cannot shield each other from the attraction to protons.
+ Electrons within a shell cannot shield each other from the attraction to protons.
 Since the number of protons is also increasing, the effective nuclear charge increases across a period
 Moving down a group in the periodic table, the number of electrons and filled electron shells increases, but the number of valence electrons remains the same
 The outermost electrons in a group are exposed to the same effective nuclear charge
@@ -196,5 +196,56 @@ Liquid air has a bluish tint, similar to water.
 By the time you feel thirsty, you've already lost about 1% of your body's water.
 Dry ice is the solid form of carbon dioxide (CO2).
 Bee stings are acidic, while wasp stings are alkaline.
+
 Sometimes, hot water freezes more quickly than cold water
 Many radioactive elements actually glow in the dark.
+Chemical engineers apply the principles of chemistry, biology, physics, and math to solve problems that involve the use of fuel, drugs, food, and many other products.
+Chemical engineers work mostly in offices or laboratories. They may spend time at industrial plants, refineries, and other locations, where they monitor or direct operations or solve onsite problems. Nearly all chemical engineers work full time.
+Chemical engineers must have a bachelor’s degree in chemical engineering or a related field. Employers also value practical experience. Therefore, internships and cooperative engineering programs can be helpful.
+Initially, Chemical Engineering graduates will start the job with calculating mass and energy balances within the process of a certain factory.
+At this stage, the engineer is able find out the production capacity, the amount of raw materials required, up to the number of products made.
+Chemical engineering is all about turning raw materials into useful, everyday products.
+The clothes we wear, the food and drink we consume and the energy we use all depend upon chemical engineering. 
+Chemical engineers work out the processes to make all these products, while also helping to manage the world's resources, protect the environment and ensure health and safety standards are met.
+There is no typical first job for a graduate, although careers in the energy, water, food and pharmaceutical sectors are all commonplace.
+Most chemical engineers work towards attaining chartered status.
+If you're thinking about a career in chemical engineering, you'll need to be good at maths. 
+Don't be misled by the chemical bit of the title – maths and science are actually more important. 
+The most common A-levels studied by chemical engineering students are maths, physics and chemistry.
+So if you're analytical and enjoy solving problems, chemical engineering could be the career for you.
+ome universities offer a broad range of additional options such as energy, biotechnology, business management and foreign languages, in conjunction with the core compulsory subjects.
+They have all the basic engineering training in mathematics and physics as well as an in-depth mastery of chemistry and biology.
+Why is this so useful? Because they can transform raw materials into useful products that we can all use, such as clothes, food, drink, and energy.
+A chemical engineer influences various areas of technology by thinking of and designing processes for producing, transforming, and transporting materials.
+Before a chemical engineer brings these materials to full scale production, there is plenty of experimentation in the laboratory.
+Many chemical engineers work in manufacturing, designing machines and plants. It is their job to ensure that the processes run smoothly and in the most economical manner possible. 
+Chemical engineers are behind the creations and manufacturing of a wide range of products, such as plastics, paper, dyes, medicines, polymers, fertilizers, petrochemicals, and even many foods.
+Energy and oil industries have always needed chemical engineers, but other job opportunities are growing even more. 
+The demand for increased energy efficient and alternative energy sources is keeping chemical engineers with plenty of work to do.
+Another growing field for chemical engineers is environmental engineering.
+Whether they are working on ways to clean up or prevent pollution, safely dispose of toxic waste, or manage a sewage treatment plant, there is no shortage of opportunities for a chemical engineer to work in environmental science. 
+In fact, many companies hire chemical engineers to fill their positions in environmental engineering.
+Chemical engineers have distinct personalities. 
+They tend to be investigative individuals, which means they’re intellectual, introspective, and inquisitive.
+They are curious, methodical, rational, analytical, and logical.
+Engineers interact with a range of disciplines (e.g., operators, managers, scientists, customers), present findings to management, and manage projects. 
+As a chemical engineer, you will likely find yourself at some point in your career leading team meetings, mentoring junior associates, negotiating with vendors, participating in brainstorming sessions, and summarizing your experiments or trials in reports. 
+Basically everything from basic mathematics to advanced mathematics.
+Being an engineering discipline one cannot get away from mathematics. 
+Chemical Engineering deals with very complex situations (may it be Heat transfer, Mass Transfer, Fluid flow operations, Chemical Reaction Engineering etc.) Numerical Methods, Partial differential equations, integration forms a integral part of the solution.
+Yes Chemical Engineering requires you to know Mathematics.
+chemical engineering problem consists of lot of variables to solve,because there are lot of concentration variables coming from various types of reactants in the problem, most of the time you have to solve n dimensional problems, and interesting thing is 90% of reaction engineering problems can be solved by using first order differential equations, as the reaction rate is always be written as dx/dt.
+Chemical engineers turn raw materials into useful product.
+They play a critical role in all goods that are manufactured on a large scale, from chemicals, fuels, fertilizers, foods, pharmaceuticals, biologicals, medical devices, surgical tools, personal protective equipment, to packaging materials, cars, trucks and ships, electronic devices, appliances, clothing, furniture, buildings, clean water and energy. 
+As a result, chemical engineers have well-paying, crisis-proof jobs with great location flexibility as they are always needed all over the world. 
+Chemical engineers improve our well-being by enabling the manufacturing of goods on a large scale, making the processes to do so more sustainable, and providing a healthier, cleaner world.
+The development of smaller, faster computer chips, innovations in recycling, treating disease, cleaning water and generating energy are all processes that chemical engineers have helped create and make more efficient.
+Chemical engineers work on safer, more powerful batteries to boost the mileage of electric cars. 
+They design pipelines that convey chemicals over distances ranging from tens to thousands of meters. 
+They develop successor technologies and new materials that turn climate-damaging carbon dioxide into useful chemicals.
+They create polymers for use as plastics, rubber, vinyl siding, pipes, personal protective equipment to keep health-care workers safe, and myriad other items of everyday life. 
+They simulate blood flow through arteries to predict and prevent stroke. 
+They harness their knowledge, skills, and expertise to create sustainable solutions that can protect and improve our environment.
+Chemical engineering is central to all manufacturing, from the traditional chemical, energy and oil industries to biotechnology, pharmaceuticals, food production, electronic materials and device fabrication, and environmental engineering. 
+Chemical Engineers develop, design and oversee processes that produce, transform, and transport chemicals, biochemicals, materials and energy. The unique training and expertise of chemical engineers is essential to modern technologies
+Many chemical engineers work in manufacturing, designing machines and plants, and ensuring that the processes run smoothly and in the most economical manner possible. They design processes and equipment for large-scale manufacturing, plan and test production methods and byproducts treatment, and direct facility operations of a wide range of products, such as plastics, paper, dyes, pharmaceuticals, polymers, fertilizers, petrochemicals, and many foods. 

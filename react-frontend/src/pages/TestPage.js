@@ -3,7 +3,7 @@ import { useState } from "react"
 import "../styles/Home.css"
 import ResultModal from "../components/ResultModal"
 
-export default function Home() {
+export default function TestPage() {
 	const maxLength = 450
 
 	const inputListener = (e) => {
@@ -11,7 +11,7 @@ export default function Home() {
 	}
 
 	const submitHandler = () => {
-		setLoading(true)
+		// setLoading(true)
 		fetch("/predict", {
 			headers: {
 				"Content-Type": "application/json",
@@ -25,10 +25,11 @@ export default function Home() {
 				return res.json()
 			})
 			.then((res) => {
-				setLoading(false)
-				setProbabilities(res.probabilities)
-				setMajors(res.majors)
-				setmodalOpened(true)
+				console.log(res)
+				// setLoading(false)
+				// setProbabilities(res.probabilities)
+				// setMajors(res.majors)
+				// setmodalOpened(true)
 			})
 	}
 
