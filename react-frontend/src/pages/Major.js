@@ -1,59 +1,88 @@
-import { ChevronRightIcon } from '@heroicons/react/outline'
-import { useState } from 'react'
-import '../styles/Major.css'
+import React from "react"
+import { useParams, Redirect } from "react-router"
+import CareerList from "../components/CareerList/CareerList"
+import { majorData } from "../MajorData"
 
-export default function Major() {
-  const inputListener = (e) => {
-    setWordCount(e.target.value.length)
-  }
+const Major = () => {
+	const { name } = useParams()
 
-  const [isExample, setExample] = useState(false)
-  const [wordCount, setWordCount] = useState(0)
+	var selectedMajor = null
+	majorData.forEach((e) => {
+		if (e.id == name) {
+			selectedMajor = e
+		}
+	})
+
+	if (selectedMajor == null) {
+		return <Redirect to='/' />
+	}
 
 	return (
-		<div
-			className='bg-cover bg-left-bottom relative'
-			style={{ backgroundImage: 'url(/assets/pattern-blue.jpg)' }}
-		>
-			<div className='mx-auto h-screen max-w-screen-md flex items-center'>
-				<div className='py-8 w-full text-center pb-20'>
-					<div className='flex justify-between w-full items-center mb-4'>
-						<p className='text-2xl font-bold text-white'>Make an essay about yourself!</p>
-						<button
-							type='button'
-							className='inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none w-20'
-              onClick={() => setExample(!isExample)}
-						>
-							{isExample ? 'Write' : 'View'}
-						</button>
+		<div className='flex flex-col'>
+			<div className='flex relative h-screen'>
+				<div className='w-1/2 flex flex-col items-center justify-center py-32'>
+					<div className='text-5xl font-bold text-gray-700'>
+						{selectedMajor.name}
 					</div>
-
-					<div className='flip h-80'>
-						<div className={`flip-content w-full ${isExample ? 'flip-content-clicked' : ''}`}>
-							<div className='flip-input w-full'>
-								<textarea
-									className='w-full rounded-lg shadow-md outline-none resize-none border border-gray-200 h-80 text-lg py-4 px-6'
-									placeholder='I love business and making money'
-                  maxLength={650}
-                  onChange={inputListener}
-								></textarea>
+					<div className='text-xl text-gray-500 mt-4'>
+						"{selectedMajor.quotes}"
+					</div>
+					<img
+						src={`/assets/${selectedMajor.image}`}
+						className='h-80 w-auto mt-10 drop-shadow-lg filter'
+					></img>
+				</div>
+				<div className='w-1/2 flex flex-col items-start justify-start pr-20 py-56'>
+					<div className='text-2xl font-bold text-gray-500'>
+						Major Introduction
+					</div>
+					<div className='text-lg mt-4'>{selectedMajor.introduction}</div>
+					<div className='flex mt-3'>
+						{selectedMajor.skills.map((skill, skillIdx) => (
+							<div
+								className={`${skill.textColor} ${skill.bgColor} py-2 px-4 rounded-full text-center mr-3`}
+							>
+								{skill.name}
 							</div>
-							<div className='flip-example bg-gray-300 p-4 rounded-lg w-full h-80'>Testtttt</div>
-						</div>
+						))}
 					</div>
-          <div className="text-white mt-2 text-right">
-            {wordCount}/650
-          </div>
+				</div>
+				<div className='absolute inset-0 flex -z-10'>
+					<svg
+						viewBox='0 0 1440 320'
+						className='mt-auto bg-gradient-to-r from-secondary-400 via-secondary-200 to-secondary-100'
+					>
+						<path
+							fill='#FFF'
+							d='M0,256L60,250.7C120,245,240,235,360,208C480,181,600,139,720,149.3C840,160,960,224,1080,245.3C1200,267,1320,245,1380,234.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z'
+						></path>
+					</svg>
 				</div>
 			</div>
-			<div className='absolute right-0 top-0 h-full flex items-center '>
-        <div className='p-5 hover:animate-bounce-right flex'>
-        <button className='rounded-full shadow-md bg-blue-500 p-3 mr-20 hover:bg-blue-600'>
-					<ChevronRightIcon className='h-10 w-10 text-gray-800'/>
-				</button>
-        </div>
-				
+			<div className='h-30 bg-gradient-to-r from-secondary-400 via-secondary-200 to-secondary-100'></div>
+			<div className='flex relative'>
+				<div className='w-full px-40 flex flex-col items-start pt-56 pb-28'>
+					<div className='text-2xl font-bold text-gray-500 mt-28'>
+						Career Path
+					</div>
+					<div className='mt-5 w-full'>
+						<CareerList></CareerList>
+					</div>
+				</div>
+				<div className='absolute inset-0 flex -z-10'>
+					<svg
+						viewBox='0 0 1440 320'
+						className='mb-auto bg-gradient-to-r from-secondary-400 via-secondary-200 to-secondary-100'
+					>
+						<path
+							fill='#FFF'
+							d='M0,256L60,250.7C120,245,240,235,360,208C480,181,600,139,720,149.3C840,160,960,224,1080,245.3C1200,267,1320,245,1380,234.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'
+						></path>
+					</svg>
+				</div>
 			</div>
 		</div>
 	)
 }
+
+export default Major
