@@ -43,10 +43,14 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="flex items-center">
-                <div className="hidden md:mr-16 md:flex md:space-x-8 h-full">
+                <div className="hidden md:mr-16 md:flex md:space-x-8 w-32 h-full">
                   <Link
                     to="/majors"
-                    className={`inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full ${location.pathname.includes('majors') ? 'border-secondary-200 text-gray-700' : 'border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700'}`}
+                    className={`inline-flex items-center justify-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium w-full h-full ${
+                      location.pathname.includes("majors")
+                        ? "border-secondary-200 text-gray-700"
+                        : "border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700"
+                    }`}
                   >
                     Majors
                   </Link>
@@ -57,11 +61,7 @@ export default function Navbar() {
                     className="relative inline-flex items-center px-4 py-2 xl:px-6 xl:py-3 border border-transparent text-sm xl:text-lg font-medium rounded-md xl:rounded-lg text-white bg-secondary-200 shadow-sm hover:bg-secondary-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary-300"
                     onClick={() => history.push("/take-test")}
                   >
-                    <ClipboardListIcon
-                      className="-ml-1 mr-2 h-5 w-5 xl:h-6 xl:w-6"
-                      aria-hidden="true"
-                    />
-                    <span>Take the Test</span>
+                    <span>Perform Test</span>
                   </button>
                 </div>
               </div>
