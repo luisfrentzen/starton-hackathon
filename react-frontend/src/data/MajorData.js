@@ -281,7 +281,7 @@ export const majorData = [
 				iconBackground: "bg-yellow-50",
 			},
 			{
-				title: "Systems Analyst",
+				title: "System Analyst",
 				icon: CashIcon,
 				iconForeground: "text-yellow-700",
 				iconBackground: "bg-yellow-50",
