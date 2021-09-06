@@ -56,36 +56,43 @@ export const majorData = [
       {
         title: "Mining Engineer",
         icon: ClockIcon,
+        description: "Engineer mineral mining processes.",
         iconForeground: "text-purple-700",
         iconBackground: "bg-purple-50",
       },
       {
         title: "Food Engineer",
         icon: BadgeCheckIcon,
+        description: "Engineer and test new flavour or foods.",
         iconForeground: "text-purple-700",
         iconBackground: "bg-purple-50",
       },
       {
         title: "Petroleum Engineer",
         icon: UsersIcon,
+        description: "Engineer newer and better solution for gas.",
         iconForeground: "text-yellow-700",
         iconBackground: "bg-yellow-50",
       },
       {
         title: "Pharmaceutical Engineer",
         icon: CashIcon,
+        description: "Makes medicine to cure or treat diseases.",
         iconForeground: "text-yellow-700",
         iconBackground: "bg-yellow-50",
       },
       {
         title: "Consulting Engineer",
         icon: ReceiptRefundIcon,
+        description: "Tell people how to do their job right at the field.",
         iconForeground: "text-indigo-700",
         iconBackground: "bg-indigo-50",
       },
       {
         title: "Water Treatment Engineer",
         icon: AcademicCapIcon,
+        description:
+          "Bring newer and better solution for clean water treatment and management.",
         iconForeground: "text-indigo-700",
         iconBackground: "bg-indigo-50",
       },

@@ -100,7 +100,7 @@ export default function LandingPage() {
               to="/take-test"
               className="flex items-center justify-center px-4 py-3 border border-transparent font-bold text-lg sm:text-xl font-medium rounded-full shadow-sm text-white bg-gradient-to-r from-accent-100 to-accent-200 hover:from-accent-200 hover:to-accent-300 sm:py-4 sm:px-12 shadow-md"
             >
-              Start Test
+              Take the Test
             </Link>
           </div>
         </div>

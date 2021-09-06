@@ -61,7 +61,7 @@ export default function Navbar() {
                     className="relative inline-flex items-center px-4 py-2 xl:px-6 xl:py-3 border border-transparent text-sm xl:text-lg font-medium rounded-md xl:rounded-lg text-white bg-secondary-200 shadow-sm hover:bg-secondary-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary-300"
                     onClick={() => history.push("/take-test")}
                   >
-                    <span>Perform Test</span>
+                    <span>Take the Test</span>
                   </button>
                 </div>
               </div>
