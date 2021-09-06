@@ -1,3 +1,25 @@
+import {
+	BeakerIcon,
+	BriefcaseIcon,
+	CodeIcon,
+	CurrencyDollarIcon,
+	FilmIcon,
+	GlobeIcon,
+	HeartIcon,
+	HomeIcon,
+	LightningBoltIcon,
+	TruckIcon,
+} from "@heroicons/react/outline"
+
+import {
+	AcademicCapIcon,
+	BadgeCheckIcon,
+	CashIcon,
+	ClockIcon,
+	ReceiptRefundIcon,
+	UsersIcon,
+} from "@heroicons/react/outline"
+
 /*
 		id = url nya
 		name = nama major
@@ -10,7 +32,7 @@ export const majorData = [
 		id: "chemical-engineering",
 		name: "Chemical Engineering",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: BeakerIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -35,12 +57,50 @@ export const majorData = [
 				bgColor: "bg-blue-50",
 			},
 		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+		],
 	},
 	{
 		id: "biotechnology",
 		name: "Biotechnoloyy",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: HeartIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -63,6 +123,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -70,7 +168,7 @@ export const majorData = [
 		id: "business-economics",
 		name: "Business and Economics",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: CurrencyDollarIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -93,6 +191,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -100,7 +236,7 @@ export const majorData = [
 		id: "computer-science",
 		name: "Computer Science",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: CodeIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -123,6 +259,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -130,7 +304,7 @@ export const majorData = [
 		id: "electrical-engineering",
 		name: "Electrical Engineering",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: LightningBoltIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -153,6 +327,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -160,7 +372,7 @@ export const majorData = [
 		id: "geography",
 		name: "Geography",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: GlobeIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -183,6 +395,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -190,7 +440,7 @@ export const majorData = [
 		id: "hospitality-tourism",
 		name: "Hospitality and Tourism",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: TruckIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -213,6 +463,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -220,7 +508,7 @@ export const majorData = [
 		id: "law-school",
 		name: "Law School",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: BriefcaseIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -243,6 +531,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},
@@ -250,7 +576,7 @@ export const majorData = [
 		id: "medical-school",
 		name: "Medical School",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: HomeIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -275,12 +601,50 @@ export const majorData = [
 				bgColor: "bg-blue-50",
 			},
 		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+		],
 	},
 	{
 		id: "visual-design",
 		name: "Visual Design",
 		quotes: "Never trust an atom, they make up everything",
-		image: "dummy.png",
+		icon: FilmIcon,
 		introduction:
 			"Chemical engineering is a multi-disciplinary branch of engineering that combines natural and experimental sciences (such as chemistry and physics), along with life sciences (such as biology, microbiology and biochemistry) plus mathematics and economics to design, develop, produce, transform, transport, operate and manage the industrial processes that turn raw materials into valuable products.",
 		skills: [
@@ -303,6 +667,44 @@ export const majorData = [
 				name: "Lonte",
 				textColor: "text-blue-700",
 				bgColor: "bg-blue-50",
+			},
+		],
+		careerPaths: [
+			{
+				name: "Request time off",
+				icon: ClockIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Benefits",
+				icon: BadgeCheckIcon,
+				iconForeground: "text-purple-700",
+				iconBackground: "bg-purple-50",
+			},
+			{
+				title: "Schedule a one-on-one",
+				icon: UsersIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Payroll",
+				icon: CashIcon,
+				iconForeground: "text-yellow-700",
+				iconBackground: "bg-yellow-50",
+			},
+			{
+				title: "Submit an expense",
+				icon: ReceiptRefundIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
+			},
+			{
+				title: "Training",
+				icon: AcademicCapIcon,
+				iconForeground: "text-indigo-700",
+				iconBackground: "bg-indigo-50",
 			},
 		],
 	},

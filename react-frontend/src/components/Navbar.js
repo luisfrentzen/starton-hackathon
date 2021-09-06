@@ -1,12 +1,15 @@
 import { Disclosure } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon, ClipboardListIcon } from '@heroicons/react/outline'
-import { useHistory } from 'react-router'
+import { useHistory, useLocation } from 'react-router'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 	const history = useHistory()
+  const location = useLocation()
+  console.log(location.pathname)
 
 	return (
-		<Disclosure as='nav' className='bg-white shadow'>
+		<Disclosure as='nav' className='bg-white shadow relative z-50'>
 			{({ open }) => (
 				<>
 					<div className='px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16'>
@@ -24,22 +27,22 @@ export default function Navbar() {
 									</Disclosure.Button>
 								</div>
 								<div className='flex-shrink-0 flex items-center'>
-									<a
-										href='https://instagram.com/chellseych?utm_medium=copy_link'
+									<Link
+                    to='/'
 										className='flex items-center'
 									>
 										<span className='sr-only'>Workflow</span>
-										<img className='h-8 w-auto sm:h-10 rounded-full' src='/assets/ch.jpeg' alt='CH' />
-										<span className='hidden sm:block font-bold text-lg ml-3'>CHolaRR</span>
-									</a>
+										<img className='h-8 w-auto sm:h-10 rounded-full' src='/assets/scholarr_left.png' alt='CHOLARR' />
+										{/* <span className='hidden sm:block font-bold text-lg ml-3'>CHolaRR</span> */}
+									</Link>
 								</div>
 								<div className='hidden md:ml-16 md:flex md:space-x-8'>
-									<a
-										href='#'
+									<Link
+                    to='/majors'
 										className='border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700 inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full'
 									>
 										Majors
-									</a>
+									</Link>
 								</div>
 							</div>
 							<div className='flex items-center'>
