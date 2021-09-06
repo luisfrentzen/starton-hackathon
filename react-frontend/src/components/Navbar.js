@@ -1,9 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import {
-  BellIcon,
   MenuIcon,
   XIcon,
-  ClipboardListIcon,
 } from "@heroicons/react/outline";
 import { useHistory, useLocation } from "react-router";
 import { Link } from "react-router-dom";

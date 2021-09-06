@@ -1,4 +1,3 @@
-import { AcademicCapIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
 
 export default function MajorGrid({ data }) {
