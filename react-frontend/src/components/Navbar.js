@@ -5,14 +5,13 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 	const history = useHistory()
-  const location = useLocation()
-  console.log(location.pathname)
+	const location = useLocation()
 
 	return (
-		<Disclosure as='nav' className='bg-white shadow relative z-50'>
+		<Disclosure as='nav' className='bg-white shadow relative z-50 sticky top-0'>
 			{({ open }) => (
 				<>
-					<div className='px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16'>
+					<div className='px-4 sm:px-8 lg:px-12 xl:px-16 2xl:px-20'>
 						<div className='flex justify-between h-16 xl:h-20'>
 							<div className='flex'>
 								<div className='-ml-2 mr-2 flex items-center md:hidden'>
@@ -27,25 +26,30 @@ export default function Navbar() {
 									</Disclosure.Button>
 								</div>
 								<div className='flex-shrink-0 flex items-center'>
-									<Link
-                    to='/'
-										className='flex items-center'
-									>
+									<Link to='/' className='flex items-center'>
 										<span className='sr-only'>Workflow</span>
-										<img className='h-8 w-auto sm:h-10 rounded-full' src='/assets/scholarr_left.png' alt='CHOLARR' />
+										<img
+											className='h-8 w-auto sm:h-10 rounded-full'
+											src='/assets/scholarr_left.png'
+											alt='CHOLARR'
+										/>
 										{/* <span className='hidden sm:block font-bold text-lg ml-3'>CHolaRR</span> */}
-									</Link>
-								</div>
-								<div className='hidden md:ml-16 md:flex md:space-x-8'>
-									<Link
-                    to='/majors'
-										className='border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700 inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full'
-									>
-										Majors
 									</Link>
 								</div>
 							</div>
 							<div className='flex items-center'>
+								<div className='hidden h-full md:mr-12 md:flex md:space-x-8'>
+									<Link
+										to='/majors'
+										className={` inline-flex items-center px-4 pt-1 border-b-4 text-base xl:text-lg font-medium h-full ${
+											location.pathname.includes('majors')
+												? 'border-secondary-200 text-gray-700'
+												: 'border-transparent text-gray-500 hover:border-secondary-200 hover:text-gray-700'
+										}`}
+									>
+										Majors
+									</Link>
+								</div>
 								<div className='flex-shrink-0'>
 									<button
 										type='button'
