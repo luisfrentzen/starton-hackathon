@@ -7,7 +7,7 @@ import { majorData } from "../data/MajorData"
 const MajorPage = () => {
 	const { name } = useParams()
 
-	let selectedMajor = majorData.find((x) => x.id == name)
+	let selectedMajor = majorData.find(x => x.id === name)
 
 	if (selectedMajor == null) {
 		return <Redirect to='/' />
