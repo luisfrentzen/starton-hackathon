@@ -34,8 +34,13 @@ export default function Navbar() {
                   <Link to="/" className="flex items-center">
                     <span className="sr-only">Workflow</span>
                     <img
-                      className="h-8 w-auto sm:h-10 rounded-full"
+                      className="hidden w-auto sm:block sm:h-10"
                       src="/assets/scholarr_left.png"
+                      alt="CHOLARR"
+                    />
+                    <img
+                      className="h-8 w-auto sm:hidden"
+                      src="/assets/scholarr_blank.png"
                       alt="CHOLARR"
                     />
                   </Link>
