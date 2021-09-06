@@ -11,8 +11,8 @@ export default function ListMajorPage() {
 
 			<main className='relative'>
 				<section>
-					<div className='text-4xl sm:text-5xl md:text-7xl font-semibold text-gray-600 text-center pt-16 sm:pt-28 bg-gray-100'>
-						<h1 className='pb-3'>List of Majors</h1>
+					<div className='text-4xl sm:text-5xl md:text-7xl font-bold bg-gray-100 text-center pt-16 sm:pt-28'>
+						<h1 className='pb-3 text-transparent bg-clip-text bg-gradient-to-br from-gray-900 to-gray-500'>List of Majors</h1>
 					</div>
 					<div className='relative'>
 						<div className='absolute w-full top-0'>
@@ -28,7 +28,7 @@ export default function ListMajorPage() {
 				</section>
 
 				<div className='bg-gradient-to-b from-gray-200 to-gray-400'>
-					<div className='mx-auto max-w-screen-xl flex pt-24 sm:pt-48 md:pt-60 px-6 pb-16'>
+					<div className='mx-auto max-w-screen-xl flex pt-28 sm:pt-48 md:pt-60 lg:pt-72 xl:pt-80 px-6 pb-20 sm:pb-28 md:pb-32'>
 						<ul className='w-full grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
 							{majorData.map((data) => (
 								<MajorGrid key={data.id} data={data}/>
