@@ -1,7 +1,7 @@
 import React from "react"
 import { useParams, Redirect } from "react-router"
 import CareerList from "../components/CareerList/CareerList"
-import { majorData } from "../MajorData"
+import { majorData } from "../data/MajorData"
 
 const Major = () => {
 	const { name } = useParams()
@@ -20,23 +20,24 @@ const Major = () => {
 	return (
 		<div className='flex flex-col'>
 			<div className='flex relative h-screen'>
-				<div className='w-1/2 flex flex-col items-center justify-center py-32'>
+				<div className='w-1/2 flex flex-col items-center justify-start py-60'>
+					<div>
+						<selectedMajor.icon className='h-16 w-16 text-secondary-200'></selectedMajor.icon>
+					</div>
 					<div className='text-5xl font-bold text-gray-700'>
 						{selectedMajor.name}
 					</div>
 					<div className='text-xl text-gray-500 mt-4'>
 						"{selectedMajor.quotes}"
 					</div>
-					<img
-						src={`/assets/${selectedMajor.image}`}
-						className='h-80 w-auto mt-10 drop-shadow-lg filter'
-					></img>
 				</div>
 				<div className='w-1/2 flex flex-col items-start justify-start pr-20 py-56'>
 					<div className='text-2xl font-bold text-gray-500'>
 						Major Introduction
 					</div>
-					<div className='text-lg mt-4'>{selectedMajor.introduction}</div>
+					<div className='text-lg mt-4 text-justify'>
+						{selectedMajor.introduction}
+					</div>
 					<div className='flex mt-3'>
 						{selectedMajor.skills.map((skill, skillIdx) => (
 							<div
@@ -66,7 +67,7 @@ const Major = () => {
 						Career Path
 					</div>
 					<div className='mt-5 w-full'>
-						<CareerList></CareerList>
+						<CareerList careerPaths={selectedMajor.careerPaths}></CareerList>
 					</div>
 				</div>
 				<div className='absolute inset-0 flex -z-10'>
