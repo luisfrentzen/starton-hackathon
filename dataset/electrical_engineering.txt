@@ -247,4 +247,27 @@ In the SCADA system structure, it is needed to transmit information from differe
 In the FDM technique, each piece of information is transmitted over a dedicated part of the available communication channel spectrum
 these breakers combine the short-circuit and isolation functionality of the MCCB with the motor overcurrent protection of a traditional overload relay.
 The precise tripping value is either adjustable (matching for selectivity or various making current peaks in case of transformer and generator protection) or is determined by the design.
-Current-limiting circuit breakers limit the fault current and hence reduce the mechanical and thermal stress in the event of a fault
+Current-limiting circuit breakers limit the fault current and hence reduce the mechanical and thermal stress in the event of a fault.
+Electrical engineering is a practical discipline with a plethora of great career opportunities.
+Electrical and electronics engineers can work in research and development industries, engineering services firms, manufacturing, government, and tech.
+Relevant industries include automotive manufacturing, aerospace, defense, consumer electronics, commercial construction, computing, and telecommunications.
+It means you could end up testing microchips for supercomputers or designing reusable space rockets.
+For example, SpaceX, Elon Musk’s multibillion space exploration company, recently advertised an Electric Test Engineer vacancy.
+This exciting role involves creating test systems for rockets and satellites, helping SpaceX achieve its fundamental goal of allowing humanity to explore the stars.
+Electrical engineers require an in-depth understanding of electrical and electronic theory, mathematics, and materials.
+They also need advanced computer skills, and coding knowledge is a huge advantage.
+Electrical engineers are increasingly relying on computer-aided design (CAD) systems for testing and research.
+Computer simulations can model giant national power grids, run war games against a new radar or defense system, or test the processing speed of microchips.
+Electrical Engineering, Schematics, Electricity, Analog, Electrical Design, Simulation Software, Hardware, Assembly Line, AutoCAD, Control Systems.
+Electrical engineering is one of the newer branches of engineering, and dates back to the late 19th century.
+It is the branch of engineering that deals with the technology of electricity.
+Electrical engineers work on a wide range of components, devices and systems, from tiny microchips to huge power station generators.
+Early experiments with electricity included primitive batteries and static charges.
+However, the actual design, construction and manufacturing of useful devices and systems began with the implementation of Michael Faraday's Law of Induction, which essentially states that the voltage in a circuit is proportional to the rate of change in the magnetic field through the circuit.
+This law applies to the basic principles of the electric generator, the electric motor and the transformer.
+The advent of the modern age is marked by the introduction of electricity to homes, businesses and industry, all of which were made possible by electrical engineers.
+Some of the most prominent pioneers in electrical engineering include Thomas Edison (electric light bulb), George Westinghouse (alternating current), Nikola Tesla (induction motor), Guglielmo Marconi (radio) and Philo T.
+Farnsworth (television).
+These innovators turned ideas and concepts about electricity into practical devices and systems that ushered in the modern age.
+Since its early beginnings, the field of electrical engineering has grown and branched out into a number of specialized categories, including power generation and transmission systems, motors, batteries and control systems.
+Electrical engineering also includes electronics, which has itself branched into an even greater number of subcategories, such as radio frequency (RF) systems, telecommunications, remote sensing, signal processing, digital circuits, instrumentation, audio, video and optoelectronics.

@@ -248,4 +248,58 @@ Many image editing programs are also used to render or create computer art from 
 Raster images are stored in a computer in the form of a grid of picture elements, or pixels. 
 These pixels contain the image's color and brightness information. Image editors can change the pixels to enhance the image in many ways.
 Camera or computer image editing programs often offer basic automatic image enhancement features that correct color hue and brightness imbalances as well as other image editing features, such as red eye removal, sharpness adjustments, zoom features and automatic cropping. 
-Many image file formats use data compression to reduce file size and save storage space. Digital compression of images may take place in the camera, or can be done in the computer with the image editor. 
+Many image file formats use data compression to reduce file size and save storage space. Digital compression of images may take place in the camera, or can be done in the computer with the image editor.
+Abstract painters express themselves through their art, leaving the viewer to interpret the work however they want.
+In many ways, the art is more about the viewer’s experience than about the actual art itself.
+The artist’s intentions aren’t really what’s important.
+Communication design is the opposite of this.
+The responsibility of a communication designer is to develop the relationship between the viewer and visuals.
+Before they know what the visuals will look like, a communication designer will consider the message they want to communicate and how to strategically engage the viewer.
+They will consider what will capture a viewer’s attention first, the common associations that audiences have, and the psychology behind how design elements affect someone’s mood.
+They create designs that communicate a message faster than words can, but make sure that the messaging is also clear and compelling.
+The communication design definition, put more simply, would be utilizing visuals that strategically express information.
+As technological advancements open the graphic design industry up to change, design becomes even more prevalent in our world.
+As a result, quality design is more important than ever, which makes it more competitive than ever.
+Before we talk more about the specifics of what communication designers do, it’s important to understand how communication design fits into the bigger context of graphic design.
+For years, graphic design was really the only term people used to express visual design.
+It makes sense, as it’s the term most people are familiar with.
+It can encompass the entire field of using visuals to deliver a message, or it can be used to discuss a specific, small part of design.
+Some people may use graphic design in the context of layout and composition, and also use it to only refer to the tools of creating graphics, like Photoshop.
+When a marketing department brings in a graphic designer, they are often hiring them to handle one specific task of design creation instead of handling the entire marketing campaign.
+In this context, graphic design only means the practice of creating visuals, as opposed to being a general term to cover all areas for modern designers.
+Design: composition, balance, proximity, alignment, repetition, contrast, white space, hierarchy.
+Photography & artwork: resolution, DPI, PPI, bleed, trim, pixels, crop, stock photo.
+Typography: serif, sans serif, script, ascender, baseline, descender, kerning, leading, tracking, weight.
+Color: hue, tint, tone, shade, saturation, monochromatic, analogous, complementary, triadic, opacity, CMYK, RGB.
+Website elements: header, navigation bar, breadcrumb trail, landing page, HTML, user interface, wireframe.
+File formats: AI, EPS, PDF, GIF, JPEG, PNG, PSD, TIFF.
+Logo types: abstract mark, emblem, lettermark, pictorial mark, mascot, wordmark.
+Composition is the arrangement of design elements that form a whole image.
+A successful composition attracts the viewer and guides their eye across the design.
+In visual art, you might hear this referred to as “form.” In graphic design, it’s often called layout.
+Composition is made up of a number of different visual design elements, including balance, proximity, alignment, repetition, contrast and white space.
+This isn’t your ability to walk a straight line after three beers.
+In design, balance involves the placement of elements on the page so that the text and graphic elements are evenly distributed.
+There are three ways to achieve balance: symmetrically, asymmetrically and radially.
+Symmetry is achieved when all design elements are equal on both sides of a central line.
+When graphics and text are not equal on both sides of a central line, a design is said to be asymmetrical.
+In the example above, there is still balance, but there are graphics on one side and text on the other.
+A radial design is one in which elements radiate from a central point, creating balance.
+The way in which design elements are grouped or spaced on a page is called proximity.
+Great design groups like elements together.
+Alignment is the position of text or graphics, whether left, right, centered or full justified.
+To maintain a unified look, designers repeat elements throughout a design.
+Repetition is also defined as the number of times your toddler asks for a cookie.
+Contrast is achieved by including elements within the design that look measurably different from one another.
+A designer may use color, shape, texture, size or typeface to create contrast.
+White space—sometimes called negative space—is the part of the design that is unmarked by imagery or text.
+It’s also what Midwesterners call their depressing, winter landscape.
+The rule of thirds is a technique that designers use to determine focal point.
+Using a grid of three rows and columns, focal points are indicated where the lines converge.
+Designers use this as a guide to determine where to place important elements in their design.
+A grid is a series of intersecting vertical, horizontal, angular or curved lines used to organize graphic elements on a page, as well as in relation to one another.
+In design, hierarchy is the organization of elements by level of importance.
+Newspapers, magazine spreads and movie posters are good examples of the use of design hierarchy.
+Headlines (also called display type) are usually placed at the top, while subheads and body copy fall underneath.
+Scale is the size of an object in relation to another object (not that thing in your bathroom that you curse at each morning).
+Scale can be used to create interest and grab a viewer’s attention.
