@@ -9,12 +9,12 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Switch>
-        <Route exact path='/'>
-          <LandingPage/>
-        </Route>
-        <Route path='/take-test'>
-          <TestPage/>
-        </Route>
+				<Route exact path='/'>
+					<LandingPage />
+				</Route>
+				<Route path='/take-test'>
+					<TestPage />
+				</Route>
 				<Route path='/major/:name'>
 					<MajorPage />
 				</Route>
