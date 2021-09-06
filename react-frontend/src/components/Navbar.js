@@ -1,8 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import {
-  MenuIcon,
-  XIcon,
-} from "@heroicons/react/outline";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { useHistory, useLocation } from "react-router";
 import { Link } from "react-router-dom";
 
@@ -74,8 +71,12 @@ export default function Navbar() {
             <div className="pt-2 pb-3 space-y-1">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Link
-                to='/majors'
-                className={`${location.pathname.includes('majors') ? 'bg-blue-100 border-secondary-400 text-secondary-200' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'}  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6`}
+                to="/majors"
+                className={`${
+                  location.pathname.includes("majors")
+                    ? "bg-blue-100 border-secondary-400 text-secondary-200"
+                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
+                }  block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6`}
               >
                 Majors
               </Link>

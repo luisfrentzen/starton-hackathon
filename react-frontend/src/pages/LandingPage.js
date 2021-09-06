@@ -19,15 +19,15 @@ export default function LandingPage() {
                   </span>
                 </h1>
                 <p className="mt-4 max-w-lg mx-auto text-center text-xl lg:text-2xl text-blue-50 sm:max-w-4xl">
-                  Stop risking your future. Cholarr AI will help you discover
-                  opportunities in your study and career
+                  Stop risking your future. Cholarr AI will help you{" "}
+                  <b>discover opportunities</b> in your study and career.
                 </p>
                 <div className="relative z-20 w-full mt-20 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <Link
                     to="/take-test"
                     className="flex items-center justify-center px-4 py-3 border border-transparent font-bold text-lg sm:text-xl font-medium rounded-full shadow-sm text-white bg-gradient-to-r from-accent-100 to-accent-200 hover:from-accent-200 hover:to-accent-300 sm:py-3.5 sm:px-12"
                   >
-                    Try Now
+                    Discover Yours
                   </Link>
                 </div>
               </div>
@@ -67,8 +67,8 @@ export default function LandingPage() {
                     Explore majors
                   </h2>
                   <p className="mt-4 sm:mt-6 text-lg sm:text-xl text-gray-500 text-justify">
-                    Explore our major database. Read about what the major could
-                    offer, its career path and how to achieve them.
+                    <b>Explore</b> our major database. Read about what the major
+                    could offer, its career path and how to achieve them.
                   </p>
                   <div className="mt-6 sm:mt-16">
                     <Link
