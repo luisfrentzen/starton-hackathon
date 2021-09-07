@@ -38,7 +38,7 @@ export default function TestPage() {
 		if (tok.length < 10) {
 			// TO DO
 			// MODAL ERROR MESSAGE
-			setError(["You need atleast 10 words inside your essay"])
+			setError("You need atleast 10 words inside your essay")
 			setIsError(true)
 			return
 		}
@@ -63,15 +63,19 @@ export default function TestPage() {
 
 					let nextSlide = activeSlide.nextElementSibling
 					if (nextSlide == null) {
-						setProbabilities(res.probabilities)
+						// setProbabilities(res.probabilities)
 
-						let fin_majors = []
-						for (let m of res.majors) {
-							fin_majors.push(majorData.find((x) => x.id === m).name)
-						}
+						// let fin_majors = []
+						// for (let m of res.majors) {
+						// 	fin_majors.push(majorData.find((x) => x.id === m).name)
+						// }
 
-						setMajors(fin_majors)
-						setmodalOpened(true)
+						// setMajors(fin_majors)
+						// setmodalOpened(true)
+						setError(
+							"Not enough data to determine your course, please consider edit your essay"
+						)
+						setIsError(true)
 						return
 					}
 
