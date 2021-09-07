@@ -6,6 +6,8 @@ import Question from "../components/Question";
 import { listQuestion } from "../data/QuestionData";
 import { majorData } from "../data/MajorData";
 
+var word = "";
+
 export default function TestPage() {
   const maxLength = 450;
   const shortQuestionMaxLength = 220;
@@ -29,7 +31,8 @@ export default function TestPage() {
     setWord(e.target.value);
   };
 
-  const submitHandler = (word) => {
+  const submitHandler = (w) => {
+    word = word + w;
     let tok = word.split(" ");
     if (tok.length < 10) {
       // TO DO
@@ -89,7 +92,7 @@ export default function TestPage() {
   };
 
   const [isExample, setExample] = useState(false);
-  const [word, setWord] = useState("");
+  const [w, setWord] = useState("");
   const [isLoading, setLoading] = useState(false);
   const [isModalOpened, setmodalOpened] = useState(false);
   const [probabilities, setProbabilities] = useState([]);
@@ -176,7 +179,7 @@ export default function TestPage() {
           <div className="absolute bottom-10 left-1/2 lg:bottom-auto lg:left-auto lg:right-16 lg:top-1/2 flex hover:animate-bounce-right ">
             <button
               className="rounded-full shadow-md bg-blue-200 p-3 hover:bg-blue-300 -ml-6"
-              onClick={() => submitHandler(word)}
+              onClick={() => submitHandler(w)}
             >
               <ChevronRightIcon className="w-6 h-6 sm:h-10 sm:w-10 text-gray-800" />
             </button>
