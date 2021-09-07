@@ -1,5 +1,5 @@
-import { ChevronRightIcon } from "@heroicons/react/outline"
-import { useState } from "react"
+import { ChevronRightIcon } from '@heroicons/react/outline'
+import { useState } from 'react'
 
 export default function Question({ title, desc, example, maxLength, submitHandler }) {
 	const [isExample, setExample] = useState(false)
@@ -12,8 +12,7 @@ export default function Question({ title, desc, example, maxLength, submitHandle
 					<div className='flex sm:justify-between w-full sm:items-center mb-4 flex-col sm:flex-row'>
 						<div className='text-left'>
 							<p className='text-xl sm:text-3xl font-bold text-white'>{title}</p>
-							<p className='text-xs sm:text-base text-gray-200 mt-1'>{desc}
-							</p>
+							<p className='text-xs sm:text-base text-gray-200 mt-1'>{desc}</p>
 						</div>
 						<button
 							type='button'
@@ -47,7 +46,7 @@ export default function Question({ title, desc, example, maxLength, submitHandle
 			</div>
 			<div className='absolute bottom-10 left-1/2 lg:bottom-auto lg:left-auto lg:right-16 lg:top-1/2 flex hover:animate-bounce-right '>
 				<button
-					className='rounded-full shadow-md bg-green-400 p-3 hover:bg-green-500 -ml-6'
+					className='rounded-full shadow-md bg-blue-200 p-3 hover:bg-blue-300 -ml-6'
 					onClick={() => submitHandler(word)}
 				>
 					<ChevronRightIcon className='w-6 h-6 sm:h-10 sm:w-10 text-gray-800' />
