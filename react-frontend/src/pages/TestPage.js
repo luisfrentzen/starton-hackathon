@@ -211,7 +211,7 @@ export default function TestPage() {
 							</div>
 						</div>
 					</div>
-					<div className='absolute bottom-10 left-1/2 lg:bottom-auto lg:left-auto lg:right-16 lg:top-1/2 flex hover:animate-bounce-right '>
+					<div className='absolute bottom-6 left-1/2 lg:bottom-auto lg:left-auto lg:right-16 lg:top-1/2 flex hover:animate-bounce-right '>
 						<button
 							className='rounded-full shadow-md bg-blue-200 p-3 hover:bg-blue-300 -ml-6'
 							onClick={() => submitHandler(w)}
