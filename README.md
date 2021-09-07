@@ -22,11 +22,9 @@ initiate node env
 npm install
 ```
 
-start react-electron app
+start react app
 ```
-npm run dev
+npm start
 ```
-
-if you want to run the program via browser and desktop app, edit `.env` file and remove `BROWSER=none` env variable
 
 it is recommended to run as an administrator or use escalated powershell in windows
