@@ -32,7 +32,9 @@ export default function CareerList({ careerPaths }) {
 						</span>
 						<div className='text-md font-medium ml-4'>{career.title}</div>
 					</div>
-					<div className='mt-4 text-sm text-gray-500'>{career.description}</div>
+					<div className='mt-4 text-xs sm:text-sm text-gray-500'>
+						{career.description}
+					</div>
 				</div>
 			))}
 		</div>
