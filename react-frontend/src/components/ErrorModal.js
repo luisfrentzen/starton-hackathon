@@ -55,7 +55,7 @@ const ErrorModal = ({ open, setOpen, error }) => {
 										as='h3'
 										className='text-lg leading-6 font-medium text-red-800'
 									>
-										Error in your essay
+										Error
 									</Dialog.Title>
 									<div className='mt-2'>
 										<p className='text-sm text-gray-500'>{error}</p>
