@@ -1,24 +1,24 @@
 import {
-  BeakerIcon,
-  BriefcaseIcon,
-  CodeIcon,
-  CurrencyDollarIcon,
-  FilmIcon,
-  GlobeIcon,
-  HeartIcon,
-  HomeIcon,
-  LightningBoltIcon,
-  TruckIcon,
-} from "@heroicons/react/solid";
+	BeakerIcon,
+	BriefcaseIcon,
+	CodeIcon,
+	CurrencyDollarIcon,
+	FilmIcon,
+	GlobeIcon,
+	HeartIcon,
+	HomeIcon,
+	LightningBoltIcon,
+	TruckIcon,
+} from "@heroicons/react/solid"
 
 import {
-  AcademicCapIcon,
-  BadgeCheckIcon,
-  CashIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
-  UsersIcon,
-} from "@heroicons/react/outline";
+	AcademicCapIcon,
+	BadgeCheckIcon,
+	CashIcon,
+	ClockIcon,
+	ReceiptRefundIcon,
+	UsersIcon,
+} from "@heroicons/react/outline"
 
 /*
 		id = url nya
@@ -750,4 +750,3 @@ export const majorData = [
     ],
   },
 ];
-

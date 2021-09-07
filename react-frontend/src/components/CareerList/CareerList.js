@@ -1,4 +1,3 @@
-
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ")
 }
@@ -33,7 +32,6 @@ export default function CareerList({ careerPaths }) {
 						</span>
 						<div className='text-md font-medium ml-4'>{career.title}</div>
 					</div>
-					<div className='mt-6 text-sm text-gray-500'>{career.description}</div>
 				</div>
 			))}
 		</div>
