@@ -31,7 +31,14 @@ export default function TestPage() {
   ];
 
   const submitHandler = (word) => {
-    // setLoading(true)
+    let tok = word.split(" ");
+    if (tok.length < 10) {
+      // TO DO
+      // MODAL ERROR MESSAGE
+      return;
+    }
+
+    setLoading(true);
     fetch("/predict", {
       headers: {
         "Content-Type": "application/json",
@@ -45,11 +52,15 @@ export default function TestPage() {
         return res.json();
       })
       .then((res) => {
-        console.log(res);
-        // setLoading(false)
-        // setProbabilities(res.probabilities)
-        // setMajors(res.majors)
-        // setmodalOpened(true)
+        console.log(res.probabilities);
+        setLoading(false);
+
+        if (res.probabilities[0] < 0.4) {
+        } else {
+          setProbabilities(res.probabilities);
+          setMajors(res.majors);
+          setmodalOpened(true);
+        }
       });
 
     let q_index = Math.floor(Math.random() * quest.length);
