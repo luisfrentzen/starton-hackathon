@@ -1,10 +1,10 @@
-import React from 'react'
-import { useParams, Redirect } from 'react-router'
-import CareerList from '../components/CareerList/CareerList'
-import Footer from '../components/Footer'
-import MajorGrid from '../components/Major/MajorGrid'
-import Navbar from '../components/Navbar'
-import { majorData } from '../data/MajorData'
+import React from "react"
+import { useParams, Redirect } from "react-router"
+import CareerList from "../components/CareerList/CareerList"
+import Footer from "../components/Footer"
+import MajorGrid from "../components/Major/MajorGrid"
+import Navbar from "../components/Navbar"
+import { majorData } from "../data/MajorData"
 
 const MajorPage = () => {
 	const { name } = useParams()
@@ -13,7 +13,8 @@ const MajorPage = () => {
 		var result = new Array(n),
 			len = arr.length,
 			taken = new Array(len)
-		if (n > len) throw new RangeError('getRandom: more elements taken than available')
+		if (n > len)
+			throw new RangeError("getRandom: more elements taken than available")
 		while (n--) {
 			var x = Math.floor(Math.random() * len)
 			result[n] = arr[x in taken ? taken[x] : x]
@@ -40,22 +41,30 @@ const MajorPage = () => {
 				<Navbar />
 				<div className='flex flex-col'>
 					<div className='lg:flex relative h-screen pb-28'>
-						<div className='w-1/2 flex flex-col items-center justify-center py-60'>
+						<div className='w-full lg:w-1/2 flex flex-col items-center justify-center py-8 md:py-12 md:pb-0 lg:py-60'>
 							<div>
 								<selectedMajor.icon className='h-16 w-auto text-secondary-200'></selectedMajor.icon>
 							</div>
-							<div className='text-5xl font-bold text-gray-700'>{selectedMajor.name}</div>
-							<div className='text-xl text-gray-500 mt-4'>{selectedMajor.quotes}</div>
+							<div className='text-2xl md:text-5xl font-bold text-gray-700'>
+								{selectedMajor.name}
+							</div>
+							<div className='text-md md:text-xl text-gray-500 mt-2 md:mt-4'>
+								{selectedMajor.quotes}
+							</div>
 						</div>
-						<div className='w-1/2 flex flex-col items-start justify-center pr-20 py-56'>
-							<div className='ring-1 ring-opacity-50 p-8 rounded-md ring-gray-300 shadow-md'>
-								<div className='text-2xl font-bold text-gray-500'>Major Introduction</div>
-								<div className='text-lg mt-4'>{selectedMajor.introduction}</div>
-								<div className='flex mt-3 grid grid-cols-2 gap-3 mt-8'>
+						<div className='w-full pl-10 lg:pl-0 lg:w-1/2 flex flex-col items-start justify-center pr-10 lg:pr-20 py-6 md:py-8 lg:py-56'>
+							<div className='bg-white ring-1 ring-opacity-50 p-8 rounded-md ring-gray-300 shadow-md'>
+								<div className='text-md md:text-xl lg:text-2xl font-bold text-gray-500'>
+									Major Introduction
+								</div>
+								<div className='text-sm md:text-md lg:text-lg mt-4'>
+									{selectedMajor.introduction}
+								</div>
+								<div className='flex mt-3 grid grid-cols-1 lg:grid-cols-2 gap-3 mt-8'>
 									{selectedMajor.skills.map((skill, skillIdx) => (
 										<div
 											key={skillIdx}
-											className={`${skill.textColor} ${skill.bgColor} py-2 px-4 rounded-full text-center mr-3`}
+											className={`${skill.textColor} ${skill.bgColor} text-xs lg:text-base py-2 px-4 rounded-full text-center mr-3`}
 										>
 											{skill.name}
 										</div>
@@ -77,10 +86,15 @@ const MajorPage = () => {
 					</div>
 					<div className='h-30 bg-gradient-to-r from-secondary-400 via-secondary-200 to-secondary-100'></div>
 					<div className='flex relative'>
-						<div className='w-full px-40 flex flex-col items-start pt-56 2xl:pt-72'>
-							<div className='text-2xl font-bold text-gray-500 mt-28'>Career Path</div>
+						<div className='w-full px-12 md:px-20 lg:px-40 flex flex-col items-start pt-16 md:pt-28 lg:pt-56 2xl:pt-72'>
+							<div className='text-lg md:text-xl lg:text-2xl font-bold text-gray-500 mt-28'>
+								Career Path
+							</div>
 							<div className='mt-5 w-full'>
-								<CareerList className='capitalize' careerPaths={selectedMajor.careerPaths}></CareerList>
+								<CareerList
+									className='capitalize'
+									careerPaths={selectedMajor.careerPaths}
+								></CareerList>
 							</div>
 						</div>
 						<div className='absolute inset-0 flex -z-10'>
@@ -96,8 +110,10 @@ const MajorPage = () => {
 						</div>
 					</div>
 					<div className='flex relative'>
-						<div className='w-full px-40 flex flex-col items-start'>
-							<div className='text-2xl font-bold text-gray-500 mt-28'>Explore More</div>
+						<div className='w-full px-12 md:px-20 lg:px-40 flex flex-col items-start'>
+							<div className='text-lg md:text-xl lg:text-2xl font-bold text-gray-500 mt-28'>
+								Explore More
+							</div>
 							<div className='mt-5 w-full'>
 								<ul className='w-full grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-24'>
 									{recommendedMajor.map((data) => (
