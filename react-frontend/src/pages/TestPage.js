@@ -4,6 +4,7 @@ import "../styles/Home.css";
 import ResultModal from "../components/ResultModal";
 import Question from "../components/Question";
 import { listQuestion } from "../data/QuestionData";
+import { majorData } from "../data/MajorData";
 
 export default function TestPage() {
   const maxLength = 450;
@@ -29,7 +30,14 @@ export default function TestPage() {
   };
 
   const submitHandler = (word) => {
-    // setLoading(true)
+    let tok = word.split(" ");
+    if (tok.length < 10) {
+      // TO DO
+      // MODAL ERROR MESSAGE
+      return;
+    }
+
+    setLoading(true);
     fetch("/predict", {
       headers: {
         "Content-Type": "application/json",
@@ -44,17 +52,37 @@ export default function TestPage() {
       })
       .then((res) => {
         console.log(res);
+        setLoading(false);
         if (res.probabilities[0] < 0.4) {
           let activeSlide = document.querySelector(".slide.translate-x-0");
-          activeSlide.classList.remove("translate-x-0");
-          activeSlide.classList.add("-translate-x-full");
 
           let nextSlide = activeSlide.nextElementSibling;
+          if (nextSlide == null) {
+            setProbabilities(res.probabilities);
+
+            let fin_majors = [];
+            for (let m of res.majors) {
+              fin_majors.push(m.split("_").join(" "));
+            }
+
+            setMajors(fin_majors);
+            setmodalOpened(true);
+            return;
+          }
+
+          activeSlide.classList.remove("translate-x-0");
+          activeSlide.classList.add("-translate-x-full");
           nextSlide.classList.remove("translate-x-full");
           nextSlide.classList.add("translate-x-0");
         } else {
           setProbabilities(res.probabilities);
-          setMajors(res.majors);
+
+          let fin_majors = [];
+          for (let m of res.majors) {
+            fin_majors.push(m.split("_").join(" "));
+          }
+
+          setMajors(fin_majors);
           setmodalOpened(true);
         }
       });
