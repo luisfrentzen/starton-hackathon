@@ -15,8 +15,8 @@ def create_app(test_config=None):
     # file = open(FILE_PATH, "rb")
     # model = pickle.load(file)
 
-    labels = ['biotechnology', 'business_economics', 'chemical_engineering', 'computer_science',
-              'electrical_engineering', 'geography', 'hospitality_&_tourism', 'law_school', 'medical_school', 'visual_design']
+    labels = ['biotechnology', 'business-economics', 'chemical-engineering', 'computer-science',
+              'electrical-engineering', 'geography', 'hospitality-tourism', 'law-school', 'medical-school', 'visual-design']
 
     if test_config is None:
         app.config.from_pyfile('config.py', silent=True)
