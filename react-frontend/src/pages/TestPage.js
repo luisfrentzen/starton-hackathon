@@ -1,44 +1,35 @@
 import { ChevronRightIcon } from "@heroicons/react/outline";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../styles/Home.css";
 import ResultModal from "../components/ResultModal";
 import Question from "../components/Question";
+import { listQuestion } from "../data/QuestionData";
 
 export default function TestPage() {
   const maxLength = 450;
+  const shortQuestionMaxLength = 220;
+  const [question, setQuestion] = useState([]);
+
+  useEffect(() => {
+    const temp = [...listQuestion];
+    const res = [];
+
+    for (let i = 0; i < 4; i++) {
+      const rand = Math.floor(Math.random() * temp.length);
+
+      res.push(temp[rand]);
+      temp.splice(rand, 1);
+    }
+
+    setQuestion(res);
+  }, []);
 
   const inputListener = (e) => {
     setWord(e.target.value);
   };
 
-  const quest = [
-    "What subject do you like the most in high school?",
-    "What kind of school activities do you like the most?",
-    "Can you describe a topic that you like?",
-    "Do you have a vision of how you want your dream job to be?",
-  ];
-  const desc = [
-    "It's okay not to do well in every subject you know",
-    "Let's tell your little secret",
-    "It could be anything!",
-    "Imagine the golds, the glory",
-  ];
-  const ex = [
-    "Mathematics, biology and sports",
-    "Science experiment and entrepreneurships stuffs",
-    "I like the theory of atoms and how they bound to each other to form all of us",
-    "I really want to be a game developer someday",
-  ];
-
   const submitHandler = (word) => {
-    let tok = word.split(" ");
-    if (tok.length < 10) {
-      // TO DO
-      // MODAL ERROR MESSAGE
-      return;
-    }
-
-    setLoading(true);
+    // setLoading(true)
     fetch("/predict", {
       headers: {
         "Content-Type": "application/json",
@@ -52,55 +43,23 @@ export default function TestPage() {
         return res.json();
       })
       .then((res) => {
-        console.log(res.probabilities);
-        setLoading(false);
-
+        console.log(res);
         if (res.probabilities[0] < 0.4) {
+          let activeSlide = document.querySelector(".slide.translate-x-0");
+          activeSlide.classList.remove("translate-x-0");
+          activeSlide.classList.add("-translate-x-full");
+
+          let nextSlide = activeSlide.nextElementSibling;
+          nextSlide.classList.remove("translate-x-full");
+          nextSlide.classList.add("translate-x-0");
         } else {
           setProbabilities(res.probabilities);
           setMajors(res.majors);
           setmodalOpened(true);
         }
       });
-
-    let q_index = Math.floor(Math.random() * quest.length);
-    //next slide
-    setQuestion((q) => [
-      ...q,
-      <Question
-        title={quest[q_index]}
-        desc={desc[q_index]}
-        example={ex[q_index]}
-        maxLength={maxLength}
-        submitHandler={submitHandler}
-      />,
-    ]);
-    console.log(quest[q_index]);
-
-    quest.splice(q_index, 1);
-    desc.splice(q_index, 1);
-    ex.splice(q_index, 1);
-
-    console.log(quest);
-
-    let activeSlide = document.querySelector(".slide.translate-x-0");
-    activeSlide.classList.remove("translate-x-0");
-    activeSlide.classList.add("-translate-x-full");
-
-    let nextSlide = activeSlide.nextElementSibling;
-    nextSlide.classList.remove("translate-x-full");
-    nextSlide.classList.add("translate-x-0");
   };
 
-  const [question, setQuestion] = useState([
-    <Question
-      title="Testing"
-      desc="description"
-      example="example"
-      maxLength={maxLength}
-      submitHandler={submitHandler}
-    />,
-  ]);
   const [isExample, setExample] = useState(false);
   const [word, setWord] = useState("");
   const [isLoading, setLoading] = useState(false);
@@ -195,7 +154,17 @@ export default function TestPage() {
             </button>
           </div>
         </div>
-        {question}
+        {question.length > 0 &&
+          question.map((q, idx) => (
+            <Question
+              key={idx}
+              title={q.question}
+              desc={q.description}
+              example={q.example}
+              submitHandler={submitHandler}
+              maxLength={shortQuestionMaxLength}
+            />
+          ))}
       </div>
     </div>
   );
