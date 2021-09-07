@@ -6,6 +6,7 @@ import Question from "../components/Question"
 import { listQuestion } from "../data/QuestionData"
 import { majorData } from "../data/MajorData"
 import ErrorModal from "../components/ErrorModal"
+import { Link } from "react-router-dom"
 
 var word = ""
 
@@ -160,6 +161,12 @@ export default function TestPage() {
 						<div className='py-8 w-full text-center pb-20 mx-10'>
 							<div className='flex sm:justify-between w-full sm:items-center mb-4 flex-col sm:flex-row'>
 								<div className='text-left'>
+									<Link
+										to='/'
+										className='text-gray-300 text-xs sm:text-sm hover:underline cursor-pointer'
+									>
+										{"< Back to home"}
+									</Link>
 									<p className='text-xl sm:text-3xl font-bold text-white'>
 										Tell me about yourself
 									</p>
