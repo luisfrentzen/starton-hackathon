@@ -30,7 +30,9 @@ export default function CareerList({ careerPaths }) {
 						>
 							<career.icon className='h-6 w-6' aria-hidden='true' />
 						</span>
-						<div className='text-md font-medium ml-4'>{career.title}</div>
+						<div className='text-sm sm:text-md font-medium ml-4'>
+							{career.title}
+						</div>
 					</div>
 					<div className='mt-4 text-xs sm:text-sm text-gray-500'>
 						{career.description}
